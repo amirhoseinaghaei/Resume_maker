@@ -1,0 +1,2011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>818</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(45, 45, 45);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_105">
+    <item>
+     <widget class="QFrame" name="Top_Bar">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(35, 35, 35);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_toggle">
+         <property name="maximumSize">
+          <size>
+           <width>70</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(85, 170, 255);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="Btn_Toggle">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);
+border: 0px solid;</string>
+            </property>
+            <property name="text">
+             <string>Toolbar</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_top">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="Content">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_left_menu">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>70</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(35, 35, 35);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item alignment="Qt::AlignTop">
+           <widget class="QFrame" name="frame_top_menus">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="btn_page_1">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(35, 35, 35);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(85, 170, 255);
+}</string>
+               </property>
+               <property name="text">
+                <string>Template1</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_page_2">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(35, 35, 35);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(85, 170, 255);
+}</string>
+               </property>
+               <property name="text">
+                <string>Template2</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_page_3">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	background-color: rgb(35, 35, 35);
+	border: 0px solid;
+}
+QPushButton:hover {
+	background-color: rgb(85, 170, 255);
+}</string>
+               </property>
+               <property name="text">
+                <string>Template3</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_pages">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="currentIndex">
+             <number>2</number>
+            </property>
+            <widget class="QWidget" name="page_11">
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <item>
+               <widget class="QLabel" name="label_4">
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/newPrefix/form2.jpg);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>:/newPrefix/form2.jpg</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_5">
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/newPrefix/form3.jpg);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>:/newPrefix/form3.jpg</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/newPrefix/form1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap resource="f1.qrc">:/newPrefix/form1.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="page_1">
+             <layout class="QVBoxLayout" name="verticalLayout_14">
+              <item>
+               <widget class="QStackedWidget" name="stackedWidget_f1">
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="currentIndex">
+                 <number>1</number>
+                </property>
+                <widget class="QWidget" name="F1_p1">
+                 <layout class="QVBoxLayout" name="verticalLayout_27">
+                  <item>
+                   <widget class="QLabel" name="label">
+                    <property name="styleSheet">
+                     <string notr="true">alternate-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap resource="f1.qrc">:/newPrefix/form1.png</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="F1_start">
+                    <property name="text">
+                     <string>Lets start</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="F1_p2">
+                 <layout class="QVBoxLayout" name="verticalLayout_20">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_10">
+                    <item>
+                     <widget class="QLabel" name="label_14">
+                      <property name="styleSheet">
+                       <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Personal Info </string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_8">
+                      <item>
+                       <widget class="QLabel" name="label_15">
+                        <property name="styleSheet">
+                         <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                        </property>
+                        <property name="text">
+                         <string>FIRST NANE</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_16">
+                        <property name="styleSheet">
+                         <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                        </property>
+                        <property name="text">
+                         <string>LAST NANE</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_9">
+                      <item>
+                       <widget class="QLineEdit" name="First_name_f1"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="Last_name_F1"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_10">
+                      <item>
+                       <widget class="QLabel" name="label_17">
+                        <property name="styleSheet">
+                         <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                        </property>
+                        <property name="text">
+                         <string>FEILD</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_18">
+                        <property name="styleSheet">
+                         <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                        </property>
+                        <property name="text">
+                         <string>PHONE</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_11">
+                      <item>
+                       <widget class="QLineEdit" name="Feild_name_F1"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="Phone_F1"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_19">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>EMAIL</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="Email_F1"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_20">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>GITHUB</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="Github_F1"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_34">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Repo</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_21">
+                      <item>
+                       <widget class="QLineEdit" name="Repo_line_edit_F1"/>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="ADD_Repo_F1">
+                        <property name="text">
+                         <string>ADD</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_21">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
+</string>
+                      </property>
+                      <property name="text">
+                       <string>LINKDIN</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="Linkdin_F1"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_22">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
+</string>
+                      </property>
+                      <property name="text">
+                       <string>SUMMAR ABOUT YOURSELF</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QTextEdit" name="Summary_F1"/>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="F2_NEXT_2">
+                      <property name="text">
+                       <string>NEXT</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="F1_p4">
+                 <layout class="QVBoxLayout" name="verticalLayout_34">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_16">
+                    <item>
+                     <widget class="QLabel" name="label_40">
+                      <property name="styleSheet">
+                       <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/skills.jpg</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lang_line_edit_f1"/>
+                    </item>
+                    <item>
+                     <widget class="QSlider" name="lang_slider_f1">
+                      <property name="maximum">
+                       <number>5</number>
+                      </property>
+                      <property name="pageStep">
+                       <number>1</number>
+                      </property>
+                      <property name="tracking">
+                       <bool>false</bool>
+                      </property>
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="invertedAppearance">
+                       <bool>false</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="ADD_LANG_F1">
+                      <property name="text">
+                       <string>Add</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_20">
+                      <item>
+                       <widget class="QPushButton" name="F4_PREVIOUS_2">
+                        <property name="text">
+                         <string>PREVIOUS</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="F4_NEXT_2">
+                        <property name="text">
+                         <string>NEXT</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="F1_p3">
+                 <layout class="QVBoxLayout" name="verticalLayout_33">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_32">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_8">
+                      <item>
+                       <widget class="QLabel" name="label_39">
+                        <property name="styleSheet">
+                         <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap resource="f1.qrc">:/newPrefix/award.jpg</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="skill_line_edit_f1"/>
+                      </item>
+                      <item>
+                       <widget class="QSlider" name="skill_slider_f1">
+                        <property name="maximum">
+                         <number>5</number>
+                        </property>
+                        <property name="pageStep">
+                         <number>1</number>
+                        </property>
+                        <property name="tracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="invertedAppearance">
+                         <bool>false</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="ADD_SKILL_F1">
+                        <property name="text">
+                         <string>Add</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_17">
+                      <item>
+                       <widget class="QPushButton" name="F3_PREVIOUS_2">
+                        <property name="text">
+                         <string>PREVIOUS</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="F3_NEXT_2">
+                        <property name="text">
+                         <string>NEXT</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="F1_p5">
+                 <layout class="QVBoxLayout" name="verticalLayout_22">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_21">
+                    <item>
+                     <widget class="QLabel" name="label_69">
+                      <property name="font">
+                       <font>
+                        <pointsize>14</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/Education.jpg</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_49">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_54">
+                        <item>
+                         <widget class="QLabel" name="label_140">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>UNIVERSITY NAME</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="un_line_edit_f1"/>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_55">
+                        <item>
+                         <widget class="QLabel" name="label_141">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>GPA</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="gpa_line_edit_f1"/>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QTextEdit" name="summary_text_edit_f1"/>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_22">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout">
+                        <item>
+                         <widget class="QLabel" name="label_142">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>FROM</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="from_date_edit_f1"/>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_15">
+                        <item>
+                         <widget class="QLabel" name="label_143">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>TO</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="to_date_edit_f1"/>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="ADD_EDUCATION_F1_2">
+                      <property name="text">
+                       <string>ADD</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_18">
+                      <item>
+                       <widget class="QPushButton" name="F5_PREVIOUS_2">
+                        <property name="text">
+                         <string>PREVIOUS</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="F5_NEXT_2">
+                        <property name="text">
+                         <string>NEXT</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="F1_p6">
+                 <layout class="QVBoxLayout" name="verticalLayout_35">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_13">
+                    <item>
+                     <widget class="QLabel" name="label_33">
+                      <property name="font">
+                       <font>
+                        <pointsize>14</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/png-transparent-logo-brand-font-work-experience-label-text-logo.png</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="title_line_edit_f1_2"/>
+                    </item>
+                    <item>
+                     <widget class="QPlainTextEdit" name="work_summary_text_edit_f1"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_44">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>From</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="from_w_date_edit_f1"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_45">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>To</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="to_w_date_edit_f1"/>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="ADD_WORK_F1_2">
+                      <property name="text">
+                       <string>ADD</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_19">
+                      <item>
+                       <widget class="QPushButton" name="F6_PREVIOUS_2">
+                        <property name="text">
+                         <string>PREVIOUS</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="F6_NEXT_2">
+                        <property name="text">
+                         <string>NEXT</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="F1_p7">
+                 <layout class="QVBoxLayout" name="verticalLayout_26">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_19">
+                    <item>
+                     <widget class="QLabel" name="label_89">
+                      <property name="font">
+                       <font>
+                        <pointsize>14</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/award.jpg</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QTextEdit" name="award_summary_text_edit_f1"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_91">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>DATE</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="award_date_edit_f1"/>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="ADD_AWARD">
+                      <property name="text">
+                       <string>ADD</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_12">
+                      <item>
+                       <widget class="QPushButton" name="F7_PREVIOUS_2">
+                        <property name="text">
+                         <string>PREVIOUS</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="F7_NEXT_2">
+                        <property name="text">
+                         <string>NEXT</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="F1_p8">
+                 <layout class="QVBoxLayout" name="verticalLayout_18">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_17">
+                    <item>
+                     <widget class="QLabel" name="label_46">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/ready.jpg</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="f1_create_button">
+                      <property name="text">
+                       <string>Create</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="F8_PREVIOUS">
+                      <property name="text">
+                       <string>PREVIOUS</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="page_2">
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <item>
+               <widget class="QStackedWidget" name="stackedWidget_2">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="currentIndex">
+                 <number>6</number>
+                </property>
+                <widget class="QWidget" name="page">
+                 <layout class="QVBoxLayout" name="verticalLayout_125">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_124">
+                    <item>
+                     <widget class="QLabel" name="label_177">
+                      <property name="styleSheet">
+                       <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>Personal Info </string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_3">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_9">
+                        <item>
+                         <widget class="QLabel" name="label_179">
+                          <property name="styleSheet">
+                           <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string>FIRST NANE</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="First_name_f2"/>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_114">
+                        <item>
+                         <widget class="QLabel" name="label_175">
+                          <property name="styleSheet">
+                           <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string>LAST NANE</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="Last_name_F2"/>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_5">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_115">
+                        <item>
+                         <widget class="QLabel" name="label_181">
+                          <property name="styleSheet">
+                           <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string>FEILD</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="Feild_name_F3_4"/>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_116">
+                        <item>
+                         <widget class="QLabel" name="label_182">
+                          <property name="styleSheet">
+                           <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string>PHONE</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="Phone_F2"/>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_6">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_117">
+                        <item>
+                         <widget class="QLabel" name="label_2">
+                          <property name="text">
+                           <string>Year</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="Year_F2"/>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_118">
+                        <item>
+                         <widget class="QLabel" name="label_6">
+                          <property name="text">
+                           <string>Day</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="Day_F2"/>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_119">
+                        <item>
+                         <widget class="QLabel" name="label_7">
+                          <property name="text">
+                           <string>Month</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QComboBox" name="Month_F2">
+                          <item>
+                           <property name="text">
+                            <string>January</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>February</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>March</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>April</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>May</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>June</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>July</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>August</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>September</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>October</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>November</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>December</string>
+                           </property>
+                          </item>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_178">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
+</string>
+                      </property>
+                      <property name="text">
+                       <string>ADDRESS</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="Address_F2"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_180">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>EMAIL</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="Email_F2"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_176">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
+</string>
+                      </property>
+                      <property name="text">
+                       <string>SUMMAR ABOUT YOURSELF</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QTextEdit" name="Summary_F2"/>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="F1_NEXT_2">
+                      <property name="text">
+                       <string>NEXT</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="page_4">
+                 <layout class="QVBoxLayout" name="verticalLayout_81">
+                  <item>
+                   <widget class="QLabel" name="label_124">
+                    <property name="styleSheet">
+                     <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap resource="f1.qrc">:/newPrefix/skills.jpg</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="lang_line_edit_f2"/>
+                  </item>
+                  <item>
+                   <widget class="QSlider" name="lang_slider_f2">
+                    <property name="maximum">
+                     <number>5</number>
+                    </property>
+                    <property name="pageStep">
+                     <number>1</number>
+                    </property>
+                    <property name="tracking">
+                     <bool>false</bool>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="invertedAppearance">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="ADD_LANG_F2">
+                    <property name="text">
+                     <string>Add</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="F1_PREVIOUS_3">
+                    <property name="text">
+                     <string>PREVIOUS</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="F1_NEXT_3">
+                    <property name="text">
+                     <string>NEXT</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="page_24">
+                 <layout class="QVBoxLayout" name="verticalLayout_83">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_82">
+                    <item>
+                     <widget class="QLabel" name="label_125">
+                      <property name="styleSheet">
+                       <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/award.jpg</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="skill_line_edit_f2"/>
+                    </item>
+                    <item>
+                     <widget class="QSlider" name="skill_slider_f2">
+                      <property name="maximum">
+                       <number>5</number>
+                      </property>
+                      <property name="pageStep">
+                       <number>1</number>
+                      </property>
+                      <property name="tracking">
+                       <bool>false</bool>
+                      </property>
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="invertedAppearance">
+                       <bool>false</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="ADD_SKILL_F2">
+                      <property name="text">
+                       <string>Add</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_66">
+                      <item>
+                       <widget class="QPushButton" name="F1_PREVIOUS_4">
+                        <property name="text">
+                         <string>PREVIOUS</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="F1_NEXT_4">
+                        <property name="text">
+                         <string>NEXT</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="page_25">
+                 <layout class="QVBoxLayout" name="verticalLayout_109">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_108">
+                    <item>
+                     <widget class="QLabel" name="label_162">
+                      <property name="font">
+                       <font>
+                        <pointsize>14</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/Education.jpg</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_8">
+                      <property name="text">
+                       <string>Title</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="title_edit_f1"/>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_79">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_104">
+                        <item>
+                         <widget class="QLabel" name="label_164">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>UNIVERSITY NAME</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="to_date_edit_f1_5"/>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QTextEdit" name="summary_text_edit_f1_5"/>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_80">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_106">
+                        <item>
+                         <widget class="QLabel" name="label_166">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>FROM</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="un_line_edit_f1_5"/>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_107">
+                        <item>
+                         <widget class="QLabel" name="label_163">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>TO</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="from_date_edit_f1_5"/>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="ADD_EDUCATION_F1_6">
+                      <property name="text">
+                       <string>ADD</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_81">
+                    <item>
+                     <widget class="QPushButton" name="F5_PREVIOUS_6">
+                      <property name="text">
+                       <string>PREVIOUS</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="F5_NEXT_6">
+                      <property name="text">
+                       <string>NEXT</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="page_26">
+                 <layout class="QVBoxLayout" name="verticalLayout_110">
+                  <item>
+                   <widget class="QLabel" name="label_169">
+                    <property name="font">
+                     <font>
+                      <pointsize>14</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap resource="f1.qrc">:/newPrefix/png-transparent-logo-brand-font-work-experience-label-text-logo.png</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_9">
+                    <property name="text">
+                     <string>Company</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="company_line_edit_f1_6"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="title_edit_f1_6">
+                    <property name="text">
+                     <string>Title</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="title_line_edit_f1_6"/>
+                  </item>
+                  <item>
+                   <widget class="QPlainTextEdit" name="work_summary_text_edit_f1_5"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_168">
+                    <property name="font">
+                     <font>
+                      <pointsize>6</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>From</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="from_w_date_edit_f1_5"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_167">
+                    <property name="font">
+                     <font>
+                      <pointsize>6</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>To</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="to_w_date_edit_f1_5"/>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="ADD_WORK_F1_6">
+                    <property name="text">
+                     <string>ADD</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_82">
+                    <item>
+                     <widget class="QPushButton" name="F6_PREVIOUS_6">
+                      <property name="text">
+                       <string>PREVIOUS</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="F6_NEXT_6">
+                      <property name="text">
+                       <string>NEXT</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="page_27">
+                 <layout class="QVBoxLayout" name="verticalLayout_111"/>
+                </widget>
+                <widget class="QWidget" name="page_28">
+                 <layout class="QVBoxLayout" name="verticalLayout_126">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_113">
+                    <item>
+                     <widget class="QLabel" name="label_172">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/ready.jpg</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_4">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_12">
+                        <item>
+                         <widget class="QLabel" name="label_11">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Font name</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QComboBox" name="comboBox"/>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_112">
+                        <item>
+                         <widget class="QLabel" name="label_10">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Font size</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QSpinBox" name="spinBox"/>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="f1_create_button_5">
+                      <property name="text">
+                       <string>Create</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="F8_PREVIOUS_5">
+                      <property name="text">
+                       <string>PREVIOUS</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="page_3">
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QStackedWidget" name="stackedWidget_4">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="currentIndex">
+                 <number>1</number>
+                </property>
+                <widget class="QWidget" name="page_7">
+                 <layout class="QVBoxLayout" name="verticalLayout_11">
+                  <item>
+                   <widget class="QLabel" name="label_23">
+                    <property name="styleSheet">
+                     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>Personal Info </string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_13">
+                    <item>
+                     <widget class="QLabel" name="label_24">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>FIRST NANE</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_25">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>LAST NANE</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_14">
+                    <item>
+                     <widget class="QLineEdit" name="First_name_f3"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="Last_name_F3"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_15">
+                    <item>
+                     <widget class="QLabel" name="label_26">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>FEILD</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_27">
+                      <property name="styleSheet">
+                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>PHONE</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_16">
+                    <item>
+                     <widget class="QLineEdit" name="Feild_name_F3"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="Phone_F3"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_28">
+                    <property name="styleSheet">
+                     <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>EMAIL</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="Email_F3"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_29">
+                    <property name="styleSheet">
+                     <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>GITHUB</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="Github_F3"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_30">
+                    <property name="styleSheet">
+                     <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
+</string>
+                    </property>
+                    <property name="text">
+                     <string>LINKDIN</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="Linkdin_F3"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_31">
+                    <property name="styleSheet">
+                     <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
+</string>
+                    </property>
+                    <property name="text">
+                     <string>SUMMAR ABOUT YOURSELF</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QTextEdit" name="Summary_F3"/>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="F2_PERSONAL_NEXT_33">
+                    <property name="text">
+                     <string>NEXT</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="page_8"/>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>btn_page_1</tabstop>
+  <tabstop>Btn_Toggle</tabstop>
+  <tabstop>btn_page_3</tabstop>
+  <tabstop>btn_page_2</tabstop>
+ </tabstops>
+ <resources>
+  <include location="f1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

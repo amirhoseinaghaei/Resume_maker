@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>form1.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>ready.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>skills.jpg</file>
+    <file>skills.jpg</file>
+    <file>skills.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>language.jpg</file>
+    <file>language.png</file>
+    <file>language.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>award.jpg</file>
+    <file>award.png</file>
+    <file>award.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>png-transparent-logo-brand-font-work-experience-label-text-logo.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>Education.png</file>
+    <file>Education.jpg</file>
+  </qresource>
+</RCC>
