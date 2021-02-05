@@ -23,7 +23,7 @@
    <string notr="true">background-color: rgb(45, 45, 45);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout_105">
+   <layout class="QVBoxLayout" name="verticalLayout_6">
     <item>
      <widget class="QFrame" name="Top_Bar">
       <property name="maximumSize">
@@ -226,7 +226,7 @@ QPushButton:hover {
 }</string>
                </property>
                <property name="text">
-                <string>Template1</string>
+                <string>Form1</string>
                </property>
               </widget>
              </item>
@@ -249,7 +249,7 @@ QPushButton:hover {
 }</string>
                </property>
                <property name="text">
-                <string>Template2</string>
+                <string>Form2</string>
                </property>
               </widget>
              </item>
@@ -272,7 +272,7 @@ QPushButton:hover {
 }</string>
                </property>
                <property name="text">
-                <string>Template3</string>
+                <string>Form3</string>
                </property>
               </widget>
              </item>
@@ -303,7 +303,7 @@ QPushButton:hover {
              <string notr="true"/>
             </property>
             <property name="currentIndex">
-             <number>2</number>
+             <number>1</number>
             </property>
             <widget class="QWidget" name="page_11">
              <layout class="QHBoxLayout" name="horizontalLayout_7">
@@ -365,7 +365,7 @@ QPushButton:hover {
                  <string notr="true"/>
                 </property>
                 <property name="currentIndex">
-                 <number>1</number>
+                 <number>6</number>
                 </property>
                 <widget class="QWidget" name="F1_p1">
                  <layout class="QVBoxLayout" name="verticalLayout_27">
@@ -1080,17 +1080,17 @@ QPushButton:hover {
              </layout>
             </widget>
             <widget class="QWidget" name="page_2">
-             <layout class="QVBoxLayout" name="verticalLayout_6">
+             <layout class="QVBoxLayout" name="verticalLayout_24">
               <item>
                <widget class="QStackedWidget" name="stackedWidget_2">
                 <property name="styleSheet">
                  <string notr="true">background-color: rgb(255, 255, 255);</string>
                 </property>
                 <property name="currentIndex">
-                 <number>6</number>
+                 <number>2</number>
                 </property>
                 <widget class="QWidget" name="page">
-                 <layout class="QVBoxLayout" name="verticalLayout_125">
+                 <layout class="QVBoxLayout" name="verticalLayout_23">
                   <item>
                    <layout class="QVBoxLayout" name="verticalLayout_124">
                     <item>
@@ -1317,6 +1317,27 @@ QPushButton:hover {
                      <widget class="QLineEdit" name="Email_F2"/>
                     </item>
                     <item>
+                     <widget class="QLabel" name="label_12">
+                      <property name="text">
+                       <string>Please inter url of your picture </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_23">
+                      <item>
+                       <widget class="QLineEdit" name="pic_lineEdit"/>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="pic_pushButton">
+                        <property name="text">
+                         <string>Add  picture</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
                      <widget class="QLabel" name="label_176">
                       <property name="styleSheet">
                        <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
@@ -1533,7 +1554,7 @@ QPushButton:hover {
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLineEdit" name="to_date_edit_f1_5"/>
+                         <widget class="QLineEdit" name="un_line_edit_f1_5"/>
                         </item>
                        </layout>
                       </item>
@@ -1559,7 +1580,7 @@ QPushButton:hover {
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLineEdit" name="un_line_edit_f1_5"/>
+                         <widget class="QLineEdit" name="from_date_edit_f1_5"/>
                         </item>
                        </layout>
                       </item>
@@ -1578,7 +1599,7 @@ QPushButton:hover {
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLineEdit" name="from_date_edit_f1_5"/>
+                         <widget class="QLineEdit" name="to_date_edit_f1_5"/>
                         </item>
                        </layout>
                       </item>
@@ -1726,101 +1747,114 @@ QPushButton:hover {
                  <layout class="QVBoxLayout" name="verticalLayout_111"/>
                 </widget>
                 <widget class="QWidget" name="page_28">
-                 <layout class="QVBoxLayout" name="verticalLayout_126">
-                  <item>
-                   <layout class="QVBoxLayout" name="verticalLayout_113">
-                    <item>
-                     <widget class="QLabel" name="label_172">
-                      <property name="font">
-                       <font>
-                        <pointsize>6</pointsize>
-                       </font>
-                      </property>
+                 <widget class="QPushButton" name="f1_create_button_5">
+                  <property name="geometry">
+                   <rect>
+                    <x>12</x>
+                    <y>58</y>
+                    <width>93</width>
+                    <height>28</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>Create</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="F8_PREVIOUS_5">
+                  <property name="geometry">
+                   <rect>
+                    <x>12</x>
+                    <y>93</y>
+                    <width>93</width>
+                    <height>28</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>PREVIOUS</string>
+                  </property>
+                 </widget>
+                 <widget class="QWidget" name="layoutWidget">
+                  <property name="geometry">
+                   <rect>
+                    <x>90</x>
+                    <y>13</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_25">
+                   <item>
+                    <widget class="QLabel" name="label_10">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>6</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>Font size</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QSpinBox" name="fontsize_f2_spinBox"/>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="layoutWidget">
+                  <property name="geometry">
+                   <rect>
+                    <x>13</x>
+                    <y>13</y>
+                    <width>78</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_12">
+                   <item>
+                    <widget class="QLabel" name="label_11">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>6</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>Font name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QComboBox" name="font_f2_comboBox">
+                     <item>
                       <property name="text">
-                       <string/>
+                       <string>arial </string>
                       </property>
-                      <property name="pixmap">
-                       <pixmap resource="f1.qrc">:/newPrefix/ready.jpg</pixmap>
-                      </property>
-                      <property name="scaledContents">
-                       <bool>true</bool>
-                      </property>
-                      <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <layout class="QHBoxLayout" name="horizontalLayout_4">
-                      <item>
-                       <layout class="QVBoxLayout" name="verticalLayout_12">
-                        <item>
-                         <widget class="QLabel" name="label_11">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="font">
-                           <font>
-                            <pointsize>6</pointsize>
-                           </font>
-                          </property>
-                          <property name="text">
-                           <string>Font name</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QComboBox" name="comboBox"/>
-                        </item>
-                       </layout>
-                      </item>
-                      <item>
-                       <layout class="QVBoxLayout" name="verticalLayout_112">
-                        <item>
-                         <widget class="QLabel" name="label_10">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="font">
-                           <font>
-                            <pointsize>6</pointsize>
-                           </font>
-                          </property>
-                          <property name="text">
-                           <string>Font size</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QSpinBox" name="spinBox"/>
-                        </item>
-                       </layout>
-                      </item>
-                     </layout>
-                    </item>
-                    <item>
-                     <widget class="QPushButton" name="f1_create_button_5">
+                     </item>
+                     <item>
                       <property name="text">
-                       <string>Create</string>
+                       <string>times</string>
                       </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QPushButton" name="F8_PREVIOUS_5">
+                     </item>
+                     <item>
                       <property name="text">
-                       <string>PREVIOUS</string>
+                       <string>courier </string>
                       </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </item>
-                 </layout>
+                     </item>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
                 </widget>
                </widget>
               </item>

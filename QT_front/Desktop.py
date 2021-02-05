@@ -16,6 +16,9 @@ Form  = uic.loadUiType(os.path.join(os.getcwd() , "Desktop_1.ui"))[0]
 
 
 
+################################################################################################
+#First_form 
+
 
 def create_form1(personal_info,skills,languages,sum_text,work_experience,education,awards,font):
     pdf = FPDF()
@@ -152,7 +155,7 @@ def create_form1(personal_info,skills,languages,sum_text,work_experience,educati
             pass
         else:
             if x + pdf.get_string_width(sum_text[i]) > 115:
-                x = 10
+                x = 10     
                 y = y + font[1]/2
             else:
                 x = x + pdf.get_string_width(sum_text[i-1]) + 2
@@ -251,6 +254,210 @@ def create_form1(personal_info,skills,languages,sum_text,work_experience,educati
     pdf.output(f"{personal_info[0]}_form1.pdf")
 
 
+################################################################################################
+#second form 
+
+
+from fpdf import FPDF
+
+def create_form2(personal_info,education,work_experience,languages,software,font):
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.image(personal_info[0],w=40,h=40)
+
+    '''NAME AND FIELD'''
+    pdf.set_xy(120,20)
+    pdf.set_font("Times", size=25, style="B")
+    pdf.set_text_color(0,0,0)
+    pdf.set_fill_color(255,255,255)
+    pdf.cell(20, 10,personal_info[1], fill=True, ln=1)
+    pdf.set_xy(120,30)
+    pdf.set_font("courier", size=15, style="B")
+    pdf.cell(0, 10, personal_info[2], fill=True, ln=1,align="L")
+
+    '''PERSONAL DETAILS'''
+    pdf.set_xy(10,55)
+    pdf.set_font("arial", size=15, style="B")
+    pdf.set_text_color(0, 0, 0)
+    pdf.set_fill_color(255, 255, 255)
+    pdf.cell(20, 10, "PERSONAL DETAILS", fill=True, ln=1)
+
+    pdf.set_line_width(1)
+    pdf.set_draw_color(0,0,0)
+    pdf.line(10,63,200,63)
+
+    pdf.set_xy(20,68)
+    pdf.set_font("times", size=15)
+    pdf.set_text_color(91,91,91)
+    pdf.set_fill_color(255, 255, 255)
+    pdf.cell(20, 5, "Birth", fill=True, ln=1)
+    pdf.set_xy(50,pdf.get_y()-5)
+    pdf.cell(20, 5, personal_info[3], fill=True, ln=1)
+
+    pdf.set_xy(20, pdf.get_y()+3)
+    pdf.set_font("times", size=15)
+    pdf.set_text_color(91, 91, 91)
+    pdf.set_fill_color(255, 255, 255)
+    pdf.cell(20, 5, "Address", fill=True, ln=1)
+    pdf.set_xy(50, pdf.get_y() - 5)
+    pdf.cell(20, 5, personal_info[4], fill=True, ln=1)
+
+    pdf.set_xy(20, pdf.get_y() + 3)
+    pdf.set_font("times", size=15)
+    pdf.set_text_color(91, 91, 91)
+    pdf.set_fill_color(255, 255, 255)
+    pdf.cell(20, 5, "phone", fill=True, ln=1)
+    pdf.set_xy(50, pdf.get_y() - 5)
+    pdf.cell(20, 5, personal_info[5], fill=True, ln=1)
+
+    pdf.set_xy(20, pdf.get_y() + 3)
+    pdf.set_font("times", size=15)
+    pdf.set_text_color(91, 91, 91)
+    pdf.set_fill_color(255, 255, 255)
+    pdf.cell(20, 5, "E-Mail", fill=True, ln=1)
+    pdf.set_xy(50, pdf.get_y() - 5)
+    pdf.cell(20, 5, personal_info[6], fill=True, ln=1)
+
+    '''EDUCATION'''
+    pdf.set_xy(10, pdf.get_y())
+    pdf.set_font("arial", size=15, style="B")
+    pdf.set_text_color(0, 0, 0)
+    pdf.set_fill_color(255, 255, 255)
+    pdf.cell(20, 12, "EDUCATION", fill=True, ln=1)
+
+    pdf.set_line_width(1)
+    pdf.set_draw_color(0, 0, 0)
+    pdf.line(10, pdf.get_y()-3, 200, pdf.get_y()-3)
+
+    for i in range(len(education[1])):
+        pdf.set_xy(10,pdf.get_y())
+        pdf.set_font(font[0], size=font[1]+2,style="B")
+        pdf.set_text_color(0, 0, 0)
+        pdf.cell(20, 10, education[1][i], fill=False, ln=1)
+        pdf.set_xy(150 , pdf.get_y()-8)
+        pdf.set_font(font[0], size=font[1])
+        pdf.set_text_color(255,255,255)
+        pdf.set_fill_color(0,0,0)
+        pdf.cell(25, 5, education[0][i], fill=True, ln=1)
+        pdf.set_xy(10, pdf.get_y())
+        pdf.set_text_color(128, 128, 128)
+        pdf.set_font(font[0], size=font[1])
+        pdf.set_text_color(0,0,0)
+        pdf.cell(20, 6, education[2][i], fill=False, ln=1)
+        x = 40
+        y = pdf.get_y()
+        pdf.set_font(font[0], size=font[1])
+        for j in range(len(education[3][i])):
+            if j == 0:
+                pass
+            else:
+                if x + pdf.get_string_width(education[3][i][j]) > 115:
+                    x = 40
+                    y = y + font[1]/2
+                else:
+                    x = x + pdf.get_string_width(education[3][i][j-1]) + 2
+
+            pdf.set_xy(x, y)
+            pdf.cell(pdf.get_string_width(education[3][i][j]) + 1, 5, education[3][i][j], 0, 1, "C")
+
+    '''WORK EXPERIENCE'''
+    pdf.set_xy(10, pdf.get_y())
+    pdf.set_font("arial", size=15, style="B")
+    pdf.set_text_color(0, 0, 0)
+    pdf.set_fill_color(255, 255, 255)
+    pdf.cell(20, 12, "WORK EXPERIENCE", fill=True, ln=1)
+
+    pdf.set_line_width(1)
+    pdf.set_draw_color(0, 0, 0)
+    pdf.line(10, pdf.get_y() - 3, 200, pdf.get_y() - 3)
+
+    for i in range(len(work_experience[1])):
+        pdf.set_xy(10,pdf.get_y())
+        pdf.set_font(font[0], size=font[1]+2,style="B")
+        pdf.set_text_color(0, 0, 0)
+        pdf.cell(20, 10, work_experience[1][i], fill=False, ln=1)
+        pdf.set_xy(150 , pdf.get_y()-8)
+        pdf.set_font(font[0], size=font[1])
+        pdf.set_text_color(255,255,255)
+        pdf.set_fill_color(0,0,0)
+        pdf.cell(25, 5, work_experience[0][i], fill=True, ln=1)
+        pdf.set_xy(10, pdf.get_y())
+        pdf.set_text_color(128, 128, 128)
+        pdf.set_font(font[0], size=font[1])
+        pdf.set_text_color(0,0,0)
+        pdf.cell(20, 6, work_experience[2][i], fill=False, ln=1)
+        x = 40
+        y = pdf.get_y()
+        pdf.set_font(font[0], size=font[1])
+        for j in range(len(work_experience[3][i])):
+            if j == 0:
+                pass
+            else:
+                if x + pdf.get_string_width(work_experience[3][i][j]) > 115:
+                    x = 40
+                    y = y + font[1]/2
+                else:
+                    x = x + pdf.get_string_width(work_experience[3][i][j-1]) + 2
+
+            pdf.set_xy(x, y)
+            pdf.cell(pdf.get_string_width(work_experience[3][i][j]) + 1, 5, work_experience[3][i][j], 0, 1, "C")
+
+    '''SKILLS'''
+    pdf.set_xy(10, pdf.get_y())
+    pdf.set_font("arial", size=15, style="B")
+    pdf.set_text_color(0, 0, 0)
+    pdf.set_fill_color(255, 255, 255)
+    pdf.cell(20, 12, "SKILLS", fill=True, ln=1)
+
+    pdf.set_line_width(1)
+    pdf.set_draw_color(0, 0, 0)
+    pdf.line(10, pdf.get_y() - 3, 200, pdf.get_y() - 3)
+
+    pdf.set_xy(10, pdf.get_y())
+    pdf.set_font(font[0], size=font[1] + 2, style="B")
+    pdf.set_text_color(0, 0, 0)
+    pdf.cell(20, 10, "Languages", fill=False, ln=1)
+
+    pdf.set_xy(120, pdf.get_y()-10)
+    pdf.set_font(font[0], size=font[1] + 2, style="B")
+    pdf.set_text_color(0, 0, 0)
+    pdf.cell(20, 10, "Software", fill=False, ln=1)
+
+    y=pdf.get_y()
+    for i in range(len(languages[0])):
+        pdf.set_xy(10, pdf.get_y())
+        pdf.set_text_color(128, 128, 128)
+        pdf.set_font(font[0], size=font[1])
+        pdf.set_text_color(0, 0, 0)
+        pdf.cell(20, 6, languages[0][i], fill=False, ln=1)
+        x=40
+        for j in range(5):
+            if j < languages[1][i] :
+                pdf.set_fill_color(0, 0, 139)
+                pdf.ellipse(x,pdf.get_y()-5,4,4,style="F")
+            else:
+                pdf.set_fill_color(128,128,128)
+                pdf.ellipse(x, pdf.get_y() - 5, 4, 4, style="F")
+            x = x + 5
+    pdf.set_y(y)
+    for i in range(len(software[0])):
+        pdf.set_xy(120, pdf.get_y())
+        pdf.set_text_color(128, 128, 128)
+        pdf.set_font(font[0], size=font[1])
+        pdf.set_text_color(0, 0, 0)
+        pdf.cell(20, 6, software[0][i], fill=False, ln=1)
+        x=150
+        for j in range(5):
+            if j < software[1][i] :
+                pdf.set_fill_color(0, 0, 139)
+                pdf.ellipse(x,pdf.get_y()-5,4,4,style="F")
+            else:
+                pdf.set_fill_color(128,128,128)
+                pdf.ellipse(x, pdf.get_y() - 5, 4, 4, style="F")
+            x = x + 5
+
+    pdf.set_display_mode("fullpage")
+    pdf.output(f"{personal_info[0]}_form2.pdf")
 
 
 
@@ -258,6 +465,9 @@ def create_form1(personal_info,skills,languages,sum_text,work_experience,educati
 
 
 
+
+################################################################################################
+# animation
 
 def toggleMenu(self, maxWidth, enable):
     if enable:
@@ -280,7 +490,11 @@ def toggleMenu(self, maxWidth, enable):
         self.animation.setEndValue(widthExtended)
         self.animation.setEasingCurve(QtCore.QEasingCurve.InOutQuart)
         self.animation.start()
+################################################################################################
 
+################################################################################################
+
+# GUI
 
 class Practice(QMainWindow , Form):
     def __init__(self):
@@ -314,12 +528,29 @@ class Practice(QMainWindow , Form):
         self.F7_NEXT_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p8))
         self.F7_PREVIOUS_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p6))
         self.F8_PREVIOUS.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p7))
+        # self.F2_NEXT_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p3))
+        self.F1_NEXT_2.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_4))
+        # self.F3_PREVIOUS_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p2))
+        self.F1_NEXT_3.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_24))
+        self.F1_PREVIOUS_3.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page))
+        self.F1_NEXT_4.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_25))
+        self.F1_PREVIOUS_4.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_4))
+        self.F5_NEXT_6.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_26))
+        self.F5_PREVIOUS_6.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_24))
+        self.F6_NEXT_6.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_28))
+        self.F6_PREVIOUS_6.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_25))
+        self.F8_PREVIOUS_5.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_26))
         self.ADD_LANG_F1.clicked.connect((self.add_F_1_language_values))
         self.ADD_SKILL_F1.clicked.connect((self.add_F_1_skill_values))
         self.ADD_EDUCATION_F1_2.clicked.connect((self.add_F_1_education_values))
         self.ADD_WORK_F1_2.clicked.connect((self.add_F_1_work_values))
         self.ADD_AWARD.clicked.connect((self.add_F_1_award_values))
         self.ADD_Repo_F1.clicked.connect((self.add_repo))
+        self.ADD_EDUCATION_F1_6.clicked.connect((self.add_F_2_education_values))
+        self.ADD_WORK_F1_6.clicked.connect((self.add_F_2_work_values))
+        self.ADD_SKILL_F2.clicked.connect((self.add_F_2_skill_values))
+        self.ADD_LANG_F2.clicked.connect((self.add_F_2_language_values))
+        self.pic_pushButton.clicked.connect(self.selectFile)
         self.final_f1_lang_list = []
         self.lang_list  = []
         self.lang_level_list = []
@@ -340,6 +571,18 @@ class Practice(QMainWindow , Form):
         self.summary_list_1 = []
         self.work_date_list = []
         self.award_date_list = []
+        self.education_date_list_f2 = []
+        self.place_list_f2 = []
+        self.title_list_f2 = []
+        self.summary_list_f2 = []
+        self.education_date_list_w_f2 = []
+        self.summary_list_w_f2 = []
+        self.title_list_w_f2 = []
+        self.place_list_w_f2 = []
+        self.skill_list_f2 = []
+        self.skill_level_list_f2 = []
+        self.lang_level_list_f2 = []
+        self.lang_list_f2 = []
         # self.F2_PERSONAL_NEXT_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p3))
         # self.horizontalSlider_F1_1.setMinimum(1)
         # self.horizontalSlider_F1_1.setMaximum(5)
@@ -369,13 +612,21 @@ class Practice(QMainWindow , Form):
         self.lang_slider_f1.setMaximum(5)
         self.lang_slider_f1.setTickInterval(1)
         self.lang_slider_f1.setTickPosition(QSlider.TicksBelow)
+        self.lang_slider_f2.setMinimum(1)
+        self.lang_slider_f2.setMaximum(5)
+        self.lang_slider_f2.setTickInterval(1)
+        self.lang_slider_f2.setTickPosition(QSlider.TicksBelow)
         self.F2_NEXT_2.clicked.connect(self.F_1_personal_values)
+        self.F1_NEXT_2.clicked.connect(self.F_2_personal_values)
         self.F4_NEXT_2.clicked.connect(self.get_value)
         self.F3_NEXT_2.clicked.connect(self.get_value)
         self.F5_NEXT_2.clicked.connect(self.get_value)
         self.F6_NEXT_2.clicked.connect(self.get_value)
         self.F7_NEXT_2.clicked.connect(self.get_value)
-        self.f1_create_button.clicked.connect(self.create)
+        self.F1_NEXT_2.clicked.connect(self.get_value)
+        self.F6_NEXT_6.clicked.connect(self.get_value)
+        self.f1_create_button.clicked.connect(self.create_f1)
+        self.f1_create_button_5.clicked.connect(self.create_f2)
         self.education_date_list = []
         self.Summary_f1 = self.Summary_F1.toPlainText().split(" ")
         # self.F1_PERSONAL_NEXT.clicked.connect(self.F_2_personal_values)
@@ -387,6 +638,12 @@ class Practice(QMainWindow , Form):
         if self.Repo_line_edit_F1.text() not in self.repo_list:
             self.repo_list.append(self.Repo_line_edit_F1.text())
         self.Repo_line_edit_F1.setText("")
+
+
+    def selectFile(self):
+        self.pic_lineEdit.setText(str(QFileDialog.getOpenFileName()[0]))
+
+
 
 
       
@@ -410,6 +667,37 @@ class Practice(QMainWindow , Form):
             github = []
             return self.personal_list
 
+
+    def F_2_personal_values(self):
+
+            self.personal_list_f2 = [
+            self.pic_lineEdit.text(),
+            self.First_name_f2.text() + " " + self.Last_name_F2.text() , 
+            self.Feild_name_F3_4.text() , 
+            self.Month_F2.currentText() + " " +self.Day_F2.text()+ " " +"," +" "+  self.Year_F2.text() ,
+            self.Address_F2.text() ,
+            self.Phone_F2.text() , 
+            self.Email_F2.text() , 
+
+            # self.Summary_F1.toPlainText() , 
+            ]
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     def add_F_1_language_values(self):
     
             
@@ -425,6 +713,27 @@ class Practice(QMainWindow , Form):
             if self.skill_line_edit_f1.text() not in self.skill_list :
                 self.skill_list.append(self.skill_line_edit_f1.text())
                 self.skill_level_list.append(int(self.skill_slider_f1.value()))
+                # self.final_f1_lang_list = []
+                # self.final_f1_lang_list.append(lang_list , lang_level_list )
+
+
+
+
+    def add_F_2_language_values(self):
+        
+            
+            if self.lang_line_edit_f2.text() not in self.lang_list_f2 :
+                self.lang_list_f2.append(self.lang_line_edit_f2.text())
+                self.lang_level_list_f2.append(int(self.lang_slider_f2.value()))
+                # self.final_f1_lang_list
+                # self.final_f1_lang_list = []
+                # self.final_f1_lang_list.append(lang_list , lang_level_list )
+    def add_F_2_skill_values(self):
+        
+            
+            if self.skill_line_edit_f2.text() not in self.skill_list_f2 :
+                self.skill_list_f2.append(self.skill_line_edit_f2.text())
+                self.skill_level_list_f2.append(int(self.skill_slider_f2.value()))
                 # self.final_f1_lang_list = []
                 # self.final_f1_lang_list.append(lang_list , lang_level_list )
     def add_F_1_education_values(self):
@@ -444,6 +753,37 @@ class Practice(QMainWindow , Form):
                 self.education_list.append(self.summary_list)
                 
             
+    def add_F_2_education_values(self):
+        
+
+            if self.title_edit_f1.text() not in self.title_list_f2 :
+                self.education_list_f2 = []
+                self.title_list_f2.append(self.title_edit_f1.text())
+                education_str = self.from_date_edit_f1_5.text() +  " - "  + self.to_date_edit_f1_5.text()   
+                self.education_date_list_f2.append(education_str)  
+                self.place_list_f2.append(self.un_line_edit_f1_5.text())
+                self.summary_list_f2.append(self.summary_text_edit_f1_5.toPlainText().split(" "))
+                self.education_list_f2.append(self.education_date_list_f2)       
+                self.education_list_f2.append(self.title_list_f2)
+                self.education_list_f2.append(self.place_list_f2)
+                self.education_list_f2.append(self.summary_list_f2)
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     def add_F_1_work_values(self):
 
@@ -458,6 +798,26 @@ class Practice(QMainWindow , Form):
                 self.work_list.append(self.title_list)
                 self.work_list.append(self.summary_list_1)
 
+
+    def add_F_2_work_values(self):
+        
+
+            self.work_list_f2 = []
+            self.title_list_w_f2.append(self.title_line_edit_f1_6.text())
+            education_str = self.from_w_date_edit_f1_5.text() +  " - "  + self.to_w_date_edit_f1_5.text()   
+            self.education_date_list_w_f2.append(education_str)  
+            self.place_list_w_f2.append(self.company_line_edit_f1_6.text())
+            self.summary_list_w_f2.append(self.work_summary_text_edit_f1_5.toPlainText().split(" "))
+            self.work_list_f2.append(self.education_date_list_w_f2)       
+            self.work_list_f2.append(self.title_list_w_f2)
+            self.work_list_f2.append(self.place_list_w_f2)
+            self.work_list_f2.append(self.summary_list_w_f2)
+                
+            
+
+
+
+
     def add_F_1_award_values(self):
 
             if self.award_summary_text_edit_f1.toPlainText() not in self.title_award_list :
@@ -471,8 +831,12 @@ class Practice(QMainWindow , Form):
 
 
 
-    def get_value(self) :
-      pass  
+    def get_value(self) : 
+    #   print(self.personal_list_f2) 
+        print(self.lang_list_f2)
+        print(self.lang_level_list_f2)
+        print(self.skill_list_f2)
+        print(self.skill_level_list_f2)
     #     print(self.personal_list)
     #     # print(self.lang_level_list) 
     #     # print(self.skill_list)
@@ -481,11 +845,16 @@ class Practice(QMainWindow , Form):
     #     print()
     #     print()
 
-    def create(self):
+    def create_f1(self):
         font = ["arial" , 12]
         skills = [self.skill_list , self.skill_level_list ]
-        language =  [self.lang_list , self.lang_level_list ]
+        language =  [self.lang_list  , self.lang_level_list ]
         create_form1(self.personal_list,skills,language,self.Summary_f1,self.work_list,self.education_list,self.award_list,font)
+    def create_f2(self):
+        font = ["arial" , self.fontsize_f2_spinBox.value()]
+        skills = [self.skill_list_f2 , self.skill_level_list_f2 ]
+        language =  [self.lang_list_f2 , self.lang_level_list_f2 ]
+        create_form2(self.personal_list_f2,self.education_list_f2,self.work_list_f2,language,skills,font)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv) 
