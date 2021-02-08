@@ -18,19 +18,31 @@
     <file>skills.jpg</file>
   </qresource>
   <qresource prefix="newPrefix">
-    <file>language.jpg</file>
-    <file>language.png</file>
-    <file>language.png</file>
-  </qresource>
-  <qresource prefix="newPrefix">
+    <file>form3.jpg</file>
     <file>award.jpg</file>
     <file>award.png</file>
     <file>award.png</file>
   </qresource>
   <qresource prefix="newPrefix">
+    <file>form1.png</file>
+    <file>form2.png</file>
+    <file>form3.png</file>
+    <file>rew.png</file>
+    <file>reward.png</file>
+    <file>Education.png</file>
+    <file>experience.png</file>
+    <file>language.png.jpg</file>
+    <file>skill4.png</file>
+    <file>skills1.png</file>
+    <file>works.png</file>
+    <file>Education.png</file>
+    <file>language1.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
     <file>png-transparent-logo-brand-font-work-experience-label-text-logo.png</file>
   </qresource>
   <qresource prefix="newPrefix">
+    <file>skills.jpg</file>
     <file>skills2.jpg</file>
     <file>Education3.jpg</file>
     <file>Education1.jpg</file>
