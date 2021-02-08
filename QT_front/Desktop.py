@@ -516,7 +516,8 @@ class Practice(QMainWindow , Form):
 
         self.F1_start.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p2))
     
-        self.F2_NEXT_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p3))
+        self.F2_NEXT_2.clicked.connect(self.f1_p_next)
+       
         self.F3_NEXT_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p4))
         self.F3_PREVIOUS_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p2))
         self.F4_NEXT_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p5))
@@ -529,7 +530,7 @@ class Practice(QMainWindow , Form):
         self.F7_PREVIOUS_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p6))
         self.F8_PREVIOUS.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p7))
         # self.F2_NEXT_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p3))
-        self.F1_NEXT_2.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_4))
+        self.F1_NEXT_2.clicked.connect(self.f2_p_next)
         # self.F3_PREVIOUS_2.clicked.connect(lambda: self.stackedWidget_f1.setCurrentWidget(self.F1_p2))
         self.F1_NEXT_3.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page_24))
         self.F1_PREVIOUS_3.clicked.connect(lambda: self.stackedWidget_2.setCurrentWidget(self.page))
@@ -633,6 +634,316 @@ class Practice(QMainWindow , Form):
         # self.F1_PERSONAL_NEXT.clicked.connect(self.F_2_personal_values)
         # self.F2_PERSONAL_NEXT_33.clicked.connect(self.F_3_personal_values)
     
+
+    def f1_p_next(self):
+        if self.First_name_f1.text() == "" :
+            self.First_name_label_f1.setStyleSheet("color : #FF0000;") 
+            if self.Last_name_F1.text() != "" :
+                self.Last_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Feild_name_F1.text() != "" :
+                self.Feild_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Phone_F1.text() != "" :
+                self.Phone_label_f1.setStyleSheet("color : #000000;") 
+            if self.Email_F1.text() != "" :
+                self.Email_label_f1.setStyleSheet("color : #000000;") 
+            if self.Github_F1.text() != "" :
+                self.Github_label_f1.setStyleSheet("color : #000000;")               
+            if self.Address_F1.text() != "" :
+                self.Address_label_f1.setStyleSheet("color : #000000;")
+        if self.Last_name_F1.text() == "" :
+            self.Last_name_label_f1.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f1.text() != "" :
+                self.First_name_label_f1.setStyleSheet("color : #000000;")
+            if self.Feild_name_F1.text() != "" :
+                self.Feild_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Phone_F1.text() != "" : 
+                self.Phone_label_f1.setStyleSheet("color : #000000;") 
+            if self.Email_F1.text() != "" :
+                self.Email_label_f1.setStyleSheet("color : #000000;") 
+            if self.Github_F1.text() != "" :
+                self.Github_label_f1.setStyleSheet("color : #000000;")               
+            if self.Address_F1.text() != "" :
+                self.Address_label_f1.setStyleSheet("color : #000000;")
+        if self.Feild_name_F1.text() == "" :
+            self.Feild_name_label_f1.setStyleSheet("color : #FF0000;")
+            if self.First_name_f1.text() != "" :
+                self.First_name_label_f1.setStyleSheet("color : #000000;")
+            if self.Last_name_F1.text() != "" :
+                self.Last_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Phone_F1.text() != "" : 
+                self.Phone_label_f1.setStyleSheet("color : #000000;") 
+            if self.Email_F1.text() != "" :
+                self.Email_label_f1.setStyleSheet("color : #000000;") 
+            if self.Github_F1.text() != "" :
+                self.Github_label_f1.setStyleSheet("color : #000000;")               
+            if self.Address_F1.text() != "" :
+                self.Address_label_f1.setStyleSheet("color : #000000;")
+        if self.Phone_F1.text() == "" : 
+            self.Phone_label_f1.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f1.text() != "" :
+                self.First_name_label_f1.setStyleSheet("color : #000000;")
+            if self.Last_name_F1.text() != "" :
+                self.Last_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Feild_name_F1.text() != "" :
+                self.Feild_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Email_F1.text() != "" :
+                self.Email_label_f1.setStyleSheet("color : #000000;") 
+            if self.Github_F1.text() != "" :
+                self.Github_label_f1.setStyleSheet("color : #000000;")               
+            if self.Address_F1.text() != "" :
+                self.Address_label_f1.setStyleSheet("color : #000000;")
+        if self.Email_F1.text() == "" :
+            self.Email_label_f1.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f1.text() != "" :
+                self.First_name_label_f1.setStyleSheet("color : #000000;")
+            if self.Last_name_F1.text() != "" :
+                self.Last_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Feild_name_F1.text() != "" :
+                self.Feild_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Phone_F1.text() != "" : 
+                self.Phone_label_f1.setStyleSheet("color : #000000;") 
+            if self.Github_F1.text() != "" :
+                self.Github_label_f1.setStyleSheet("color : #000000;")               
+            if self.Address_F1.text() != "" :
+                self.Address_label_f1.setStyleSheet("color : #000000;")
+        if self.Github_F1.text() == "" :
+            self.Github_label_f1.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f1.text() != "" :
+                self.First_name_label_f1.setStyleSheet("color : #000000;")
+            if self.Last_name_F1.text() != "" :
+                self.Last_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Feild_name_F1.text() != "" :
+                self.Feild_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Phone_F1.text() != "" : 
+                self.Phone_label_f1.setStyleSheet("color : #000000;") 
+            if self.Email_F1.text() != "" :
+                self.Email_label_f1.setStyleSheet("color : #000000;")               
+            if self.Address_F1.text() != "" :
+                self.Address_label_f1.setStyleSheet("color : #000000;")
+        if self.Address_F1.text() == "" :              
+            self.Address_label_f1.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f1.text() != "" :
+                self.First_name_label_f1.setStyleSheet("color : #000000;")
+            if self.Last_name_F1.text() != "" :
+                self.Last_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Feild_name_F1.text() != "" :
+                self.Feild_name_label_f1.setStyleSheet("color : #000000;") 
+            if self.Phone_F1.text() != "" : 
+                self.Phone_label_f1.setStyleSheet("color : #000000;") 
+            if self.Email_F1.text() != "" :
+                self.Email_label_f1.setStyleSheet("color : #000000;")               
+            if self.Github_F1.text() != "" :
+                self.Github_label_f1.setStyleSheet("color : #000000;")             
+           
+
+        if self.Address_F1.text() != "" and self.First_name_f1.text() != "" and self.Feild_name_F1.text() != "" and self.Github_F1.text() != "" :
+              if  self.Last_name_F1.text() != "" and self.Phone_F1.text() != "" and self.Email_F1.text() != "" :
+                    self.First_name_label_f1.setStyleSheet("color : #000000;")
+                    self.Last_name_label_f1.setStyleSheet("color : #000000;") 
+                    self.Feild_name_label_f1.setStyleSheet("color : #000000;") 
+                    self.Phone_label_f1.setStyleSheet("color : #000000;") 
+                    self.Email_label_f1.setStyleSheet("color : #000000;") 
+                    self.Github_label_f1.setStyleSheet("color : #000000;")               
+                    self.Address_label_f1.setStyleSheet("color : #000000;")
+                    self.stackedWidget_f1.setCurrentWidget(self.F1_p4)
+
+    def f2_p_next(self):
+        if self.First_name_f2.text() == "" :
+           
+            self.First_name_label_f2.setStyleSheet("color : #FF0000;") 
+            if self.Last_name_F2.text() != "" :
+                self.Last_name_label_f2.setStyleSheet("color : #000000;") 
+            if self.Feild_name_f2.text() != "" :
+                self.Feild_name_label_f2.setStyleSheet("color : #000000;") 
+            if self.Phone_F2.text() != "" :
+                self.Phone_label_f2.setStyleSheet("color : #000000;") 
+            if self.Email_F2.text() != "" :
+                self.Email_label_f2.setStyleSheet("color : #000000;") 
+            if self.Year_F2.text() != "" :
+                self.Year_label_f2.setStyleSheet("color : #000000;")  
+            if self.Day_F2.text() != "" :
+                self.Day_label_f2.setStyleSheet("color : #000000;")               
+            if self.Address_F2.text() != "" :
+                self.Address_label_f2_2.setStyleSheet("color : #000000;")
+            if self.pic_lineEdit.text() != "" :
+                self.URL_label_f2.setStyleSheet("color : #000000;")   
+
+        if self.Last_name_F2.text() == "" :
+            
+            self.Last_name_label_f2.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f2.text() != "" :
+                self.First_name_label_f2.setStyleSheet("color : #000000;")
+            if self.Feild_name_f2.text() != "" :
+                self.Feild_name_label_f2.setStyleSheet("color : #000000;") 
+            if self.Phone_F2.text() != "" :
+                self.Phone_label_f2.setStyleSheet("color : #000000;") 
+            if self.Email_F2.text() != "" :
+                self.Email_label_f2.setStyleSheet("color : #000000;") 
+            if self.Year_F2.text() != "" :
+                self.Year_label_f2.setStyleSheet("color : #000000;")  
+            if self.Day_F2.text() != "" :
+                self.Day_label_f2.setStyleSheet("color : #000000;")               
+            if self.Address_F2.text() != "" :
+                self.Address_label_f2_2.setStyleSheet("color : #000000;")
+            if self.pic_lineEdit.text() != "" :
+                self.URL_label_f2.setStyleSheet("color : #000000;")   
+
+        if self.Year_F2.text() == "" :
+            
+            self.Year_label_f2.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f2.text() != "" :
+                self.First_name_label_f2.setStyleSheet("color : #000000;")
+            if self.Last_name_F2.text() != "" :
+                self.Last_name_label_f2.setStyleSheet("color : #000000;")  
+            if self.Feild_name_f2.text() != "" :
+                self.Feild_name_label_f2.setStyleSheet("color : #000000;") 
+            if self.Phone_F2.text() != "" :
+                self.Phone_label_f2.setStyleSheet("color : #000000;") 
+            if self.Email_F2.text() != "" :
+                self.Email_label_f2.setStyleSheet("color : #000000;") 
+            if self.Day_F2.text() != "" :
+                self.Day_label_f2.setStyleSheet("color : #000000;")               
+            if self.Address_F2.text() != "" :
+                self.Address_label_f2_2.setStyleSheet("color : #000000;")
+            if self.pic_lineEdit.text() != "" :
+                self.URL_label_f2.setStyleSheet("color : #000000;")   
+
+        if self.Day_F2.text() == "" :
+            
+            self.Day_label_f2.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f2.text() != "" :
+                self.First_name_label_f2.setStyleSheet("color : #000000;")
+            if self.Last_name_F2.text() != "" :
+                self.Last_name_label_f2.setStyleSheet("color : #000000;")  
+            if self.Feild_name_f2.text() != "" :
+                self.Feild_name_label_f2.setStyleSheet("color : #000000;") 
+            if self.Phone_F2.text() != "" :
+                self.Phone_label_f2.setStyleSheet("color : #000000;") 
+            if self.Email_F2.text() != "" :
+                self.Email_label_f2.setStyleSheet("color : #000000;") 
+            if self.Year_F2.text() != "" :
+                self.Year_label_f2.setStyleSheet("color : #000000;")               
+            if self.Address_F2.text() != "" :
+                self.Address_label_f2_2.setStyleSheet("color : #000000;")
+            if self.pic_lineEdit.text() != "" :
+                self.URL_label_f2.setStyleSheet("color : #000000;")   
+
+        if self.Feild_name_f2.text() == "" :
+            
+            self.Feild_name_label_f2.setStyleSheet("color : #FF0000;")
+            if self.First_name_f2.text() != "" :
+                self.First_name_label_f2.setStyleSheet("color : #000000;")
+            if self.Last_name_F2.text() != "" :
+                self.Last_name_label_f2.setStyleSheet("color : #000000;")  
+            if self.Phone_F2.text() != "" :
+                self.Phone_label_f2.setStyleSheet("color : #000000;") 
+            if self.Email_F2.text() != "" :
+                self.Email_label_f2.setStyleSheet("color : #000000;") 
+            if self.Year_F2.text() != "" :
+                self.Year_label_f2.setStyleSheet("color : #000000;")  
+            if self.Day_F2.text() != "" :
+                self.Day_label_f2.setStyleSheet("color : #000000;")               
+            if self.Address_F2.text() != "" :
+                self.Address_label_f2_2.setStyleSheet("color : #000000;")
+            if self.pic_lineEdit.text() != "" :
+                self.URL_label_f2.setStyleSheet("color : #000000;")   
+
+        if self.Phone_F2.text() == "" : 
+            
+            self.Phone_label_f2.setStyleSheet("color : #FF0000;") 
+            if self.Feild_name_f2.text() != "" :
+                self.Feild_name_label_f2.setStyleSheet("color : #000000;") 
+            if self.First_name_f2.text() != "" :
+                self.First_name_label_f2.setStyleSheet("color : #000000;")
+            if self.Last_name_F2.text() != "" :
+                self.Last_name_label_f2.setStyleSheet("color : #000000;")  
+            if self.Email_F2.text() != "" :
+                self.Email_label_f2.setStyleSheet("color : #000000;") 
+            if self.Year_F2.text() != "" :
+                self.Year_label_f2.setStyleSheet("color : #000000;")  
+            if self.Day_F2.text() != "" :
+                self.Day_label_f2.setStyleSheet("color : #000000;")               
+            if self.Address_F2.text() != "" :
+                self.Address_label_f2_2.setStyleSheet("color : #000000;")
+            if self.pic_lineEdit.text() != "" :
+                self.URL_label_f2.setStyleSheet("color : #000000;")   
+
+        if self.Email_F2.text() == "" :
+            
+            self.Email_label_f2.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f2.text() != "" :
+                self.First_name_label_f2.setStyleSheet("color : #000000;")
+            if self.Last_name_F2.text() != "" :
+                self.Last_name_label_f2.setStyleSheet("color : #000000;")  
+            if self.Phone_F2.text() != "" :
+                self.Phone_label_f2.setStyleSheet("color : #000000;") 
+            if self.Feild_name_f2.text() != "" :
+                self.Feild_name_label_f2.setStyleSheet("color : #000000;") 
+            if self.Year_F2.text() != "" :
+                self.Year_label_f2.setStyleSheet("color : #000000;")  
+            if self.Day_F2.text() != "" :
+                self.Day_label_f2.setStyleSheet("color : #000000;")               
+            if self.Address_F2.text() != "" :
+                self.Address_label_f2_2.setStyleSheet("color : #000000;")
+            if self.pic_lineEdit.text() != "" :
+                self.URL_label_f2.setStyleSheet("color : #000000;")   
+        
+        if self.Address_F2.text() == "" :   
+                       
+            self.Address_label_f2_2.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f2.text() != "" :
+                self.First_name_label_f2.setStyleSheet("color : #000000;")
+            if self.Last_name_F2.text() != "" :
+                self.Last_name_label_f2.setStyleSheet("color : #000000;")  
+            if self.Phone_F2.text() != "" :
+                self.Phone_label_f2.setStyleSheet("color : #000000;") 
+            if self.Feild_name_f2.text() != "" :
+                self.Feild_name_label_f2.setStyleSheet("color : #000000;") 
+            if self.Year_F2.text() != "" :
+                self.Year_label_f2.setStyleSheet("color : #000000;")  
+            if self.Day_F2.text() != "" :
+                self.Day_label_f2.setStyleSheet("color : #000000;") 
+            if self.Email_F2.text() != "" :
+                self.Email_label_f2.setStyleSheet("color : #000000;")  
+            if self.pic_lineEdit.text() != "" :
+                self.URL_label_f2.setStyleSheet("color : #000000;")
+        if self.pic_lineEdit.text() == "" :   
+                       
+            self.URL_label_f2.setStyleSheet("color : #FF0000;") 
+            if self.First_name_f2.text() != "" :
+                self.First_name_label_f2.setStyleSheet("color : #000000;")
+            if self.Last_name_F2.text() != "" :
+                self.Last_name_label_f2.setStyleSheet("color : #000000;")  
+            if self.Phone_F2.text() != "" :
+                self.Phone_label_f2.setStyleSheet("color : #000000;") 
+            if self.Feild_name_f2.text() != "" :
+                self.Feild_name_label_f2.setStyleSheet("color : #000000;") 
+            if self.Year_F2.text() != "" :
+                self.Year_label_f2.setStyleSheet("color : #000000;")  
+            if self.Day_F2.text() != "" :
+                self.Day_label_f2.setStyleSheet("color : #000000;") 
+            if self.Email_F2.text() != "" :
+                self.Email_label_f2.setStyleSheet("color : #000000;")  
+            if self.Address_F2.text() != "" :
+                self.Address_label_f2_2.setStyleSheet("color : #000000;")
+    
+           
+
+        if self.Address_F2.text() != "" and self.First_name_f2.text() != "" and self.pic_lineEdit.text() != "" :
+          if  self.Last_name_F2.text() != "" and self.Phone_F2.text() != "" and self.Email_F2.text() != "" :
+            if self.Feild_name_f2.text() != "" and self.Year_F2.text() != ""  and self.Day_F2.text() != "": 
+ 
+                self.First_name_label_f2.setStyleSheet("color : #000000;")
+                self.Last_name_label_f2.setStyleSheet("color : #000000;") 
+                self.Feild_name_label_f2.setStyleSheet("color : #000000;") 
+                self.Phone_label_f2.setStyleSheet("color : #000000;") 
+                self.Email_label_f2.setStyleSheet("color : #000000;") 
+                self.Year_label_f2.setStyleSheet("color : #000000;")
+                self.Day_label_f2.setStyleSheet("color : #000000;")
+                self.URL_label_f2.setStyleSheet("color : #000000;")
+                self.Address_label_f2_2.setStyleSheet("color : #000000;")
+                self.stackedWidget_2.setCurrentWidget(self.page_4)          
+
     def add_repo(self):
         
         if self.Repo_line_edit_F1.text() not in self.repo_list:
@@ -673,7 +984,7 @@ class Practice(QMainWindow , Form):
             self.personal_list_f2 = [
             self.pic_lineEdit.text(),
             self.First_name_f2.text() + " " + self.Last_name_F2.text() , 
-            self.Feild_name_F3_4.text() , 
+            self.Feild_name_f2.text() , 
             self.Month_F2.currentText() + " " +self.Day_F2.text()+ " " +"," +" "+  self.Year_F2.text() ,
             self.Address_F2.text() ,
             self.Phone_F2.text() , 
@@ -704,6 +1015,8 @@ class Practice(QMainWindow , Form):
             if self.lang_line_edit_f1.text() not in self.lang_list :
                 self.lang_list.append(self.lang_line_edit_f1.text())
                 self.lang_level_list.append(int(self.lang_slider_f1.value()))
+                self.lang_line_edit_f1.setText("")
+                self.lang_slider_f1.setValue(0)
                 # self.final_f1_lang_list
                 # self.final_f1_lang_list = []
                 # self.final_f1_lang_list.append(lang_list , lang_level_list )
@@ -713,6 +1026,8 @@ class Practice(QMainWindow , Form):
             if self.skill_line_edit_f1.text() not in self.skill_list :
                 self.skill_list.append(self.skill_line_edit_f1.text())
                 self.skill_level_list.append(int(self.skill_slider_f1.value()))
+                self.skill_line_edit_f1.setText("")
+                self.skill_slider_f1.setValue(0)
                 # self.final_f1_lang_list = []
                 # self.final_f1_lang_list.append(lang_list , lang_level_list )
 
@@ -725,6 +1040,8 @@ class Practice(QMainWindow , Form):
             if self.lang_line_edit_f2.text() not in self.lang_list_f2 :
                 self.lang_list_f2.append(self.lang_line_edit_f2.text())
                 self.lang_level_list_f2.append(int(self.lang_slider_f2.value()))
+                self.lang_line_edit_f2.setText("")
+                self.lang_slider_f2.setValue(0)
                 # self.final_f1_lang_list
                 # self.final_f1_lang_list = []
                 # self.final_f1_lang_list.append(lang_list , lang_level_list )
@@ -734,6 +1051,8 @@ class Practice(QMainWindow , Form):
             if self.skill_line_edit_f2.text() not in self.skill_list_f2 :
                 self.skill_list_f2.append(self.skill_line_edit_f2.text())
                 self.skill_level_list_f2.append(int(self.skill_slider_f2.value()))
+                self.skill_line_edit_f2.setText("")
+                self.skill_slider_f2.setValue(0)
                 # self.final_f1_lang_list = []
                 # self.final_f1_lang_list.append(lang_list , lang_level_list )
     def add_F_1_education_values(self):
@@ -751,6 +1070,12 @@ class Practice(QMainWindow , Form):
                 self.education_list.append(self.place_list)
                 self.education_list.append(self.gpa_list)
                 self.education_list.append(self.summary_list)
+                self.un_line_edit_f1.setText("")
+                self.gpa_line_edit_f1.setText("")
+                self.summary_text_edit_f1.setText("")
+                self.from_date_edit_f1.setText("")
+                self.to_date_edit_f1.setText("")
+
                 
             
     def add_F_2_education_values(self):
@@ -767,22 +1092,13 @@ class Practice(QMainWindow , Form):
                 self.education_list_f2.append(self.title_list_f2)
                 self.education_list_f2.append(self.place_list_f2)
                 self.education_list_f2.append(self.summary_list_f2)
+                self.title_edit_f1.setText("")
+                self.un_line_edit_f1_5.setText("")
+                self.summary_text_edit_f1_5.setText("")
+                self.from_date_edit_f1_5.setText("")
+                self.to_date_edit_f1_5.setText("")
                 
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     def add_F_1_work_values(self):
@@ -797,6 +1113,11 @@ class Practice(QMainWindow , Form):
                 self.work_list.append(self.work_date_list)
                 self.work_list.append(self.title_list)
                 self.work_list.append(self.summary_list_1)
+                self.title_line_edit_f1_2.setText("")
+                self.work_summary_text_edit_f1.setPlainText("")
+                self.from_w_date_edit_f1.setText("")
+                self.to_w_date_edit_f1.setText("")
+
 
 
     def add_F_2_work_values(self):
@@ -812,6 +1133,12 @@ class Practice(QMainWindow , Form):
             self.work_list_f2.append(self.title_list_w_f2)
             self.work_list_f2.append(self.place_list_w_f2)
             self.work_list_f2.append(self.summary_list_w_f2)
+            self.company_line_edit_f1_6.setText("")
+            self.title_line_edit_f1_6.setText("")
+            self.work_summary_text_edit_f1_5.setPlainText("")
+            self.to_w_date_edit_f1_5.setText("")
+            self.from_w_date_edit_f1.setText("")
+            
                 
             
 
@@ -828,22 +1155,25 @@ class Practice(QMainWindow , Form):
                 self.award_date_list.append(award_str)    
                 self.award_list.append(self.award_date_list)
                 self.award_list.append(self.title_award_list)
+                self.award_summary_text_edit_f1.setText("")
+                self.award_date_edit_f1.setText("")
 
 
 
     def get_value(self) : 
-    #   print(self.personal_list_f2) 
-        print(self.lang_list_f2)
-        print(self.lang_level_list_f2)
-        print(self.skill_list_f2)
-        print(self.skill_level_list_f2)
-    #     print(self.personal_list)
-    #     # print(self.lang_level_list) 
-    #     # print(self.skill_list)
-    #     # print(self.skill_level_list) 
-    #     print(self.education_list)
-    #     print()
-    #     print()
+        pass
+        # print(self.personal_list_f2) 
+        # print(self.lang_list_f2)
+        # print(self.lang_level_list_f2)
+        # print(self.skill_list_f2)
+        # print(self.skill_level_list_f2)
+        # print(self.personal_list)
+        # # print(self.lang_level_list) 
+        # # print(self.skill_list)
+        # # print(self.skill_level_list) 
+        # print(self.education_list)
+        # print()
+        # print()
 
     def create_f1(self):
         font = ["arial" , 12]

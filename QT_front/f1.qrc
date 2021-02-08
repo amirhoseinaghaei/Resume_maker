@@ -1,11 +1,18 @@
 <RCC>
   <qresource prefix="newPrefix">
+    <file>form2.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>form3.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
     <file>form1.png</file>
   </qresource>
   <qresource prefix="newPrefix">
     <file>ready.jpg</file>
   </qresource>
   <qresource prefix="newPrefix">
+    <file>skills2.jpg</file>
     <file>skills.jpg</file>
     <file>skills.jpg</file>
     <file>skills.jpg</file>
@@ -24,6 +31,11 @@
     <file>png-transparent-logo-brand-font-work-experience-label-text-logo.png</file>
   </qresource>
   <qresource prefix="newPrefix">
+    <file>skills2.jpg</file>
+    <file>Education3.jpg</file>
+    <file>Education1.jpg</file>
+    <file>Education.jpg</file>
+    <file>download.png</file>
     <file>Education.png</file>
     <file>Education.jpg</file>
   </qresource>

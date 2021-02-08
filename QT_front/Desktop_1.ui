@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1000</width>
-    <height>818</height>
+    <width>1034</width>
+    <height>799</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -100,6 +100,7 @@
             </property>
             <property name="styleSheet">
              <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(172, 172, 172);
 border: 0px solid;</string>
             </property>
             <property name="text">
@@ -112,6 +113,9 @@ border: 0px solid;</string>
        </item>
        <item>
         <widget class="QFrame" name="frame_top">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(35, 35, 35);</string>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -285,7 +289,7 @@ QPushButton:hover {
        <item>
         <widget class="QFrame" name="frame_pages">
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);</string>
+          <string notr="true">background-color: rgb(172, 172, 172);</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -295,65 +299,359 @@ QPushButton:hover {
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_5">
           <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
            <widget class="QStackedWidget" name="stackedWidget">
             <property name="autoFillBackground">
              <bool>false</bool>
             </property>
             <property name="styleSheet">
-             <string notr="true"/>
+             <string notr="true">background-color: rgb(172, 172, 172);</string>
             </property>
             <property name="currentIndex">
-             <number>1</number>
+             <number>0</number>
             </property>
             <widget class="QWidget" name="page_11">
-             <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <layout class="QVBoxLayout" name="verticalLayout_36">
               <item>
-               <widget class="QLabel" name="label_4">
-                <property name="styleSheet">
-                 <string notr="true">background-image: url(:/newPrefix/form2.jpg);</string>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="pixmap">
-                 <pixmap>:/newPrefix/form2.jpg</pixmap>
-                </property>
-                <property name="scaledContents">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_5">
-                <property name="styleSheet">
-                 <string notr="true">background-image: url(:/newPrefix/form3.jpg);</string>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="pixmap">
-                 <pixmap>:/newPrefix/form3.jpg</pixmap>
-                </property>
-                <property name="scaledContents">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLabel" name="label_3">
-                <property name="styleSheet">
-                 <string notr="true">background-image: url(:/newPrefix/form1.png);</string>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="pixmap">
-                 <pixmap resource="f1.qrc">:/newPrefix/form1.png</pixmap>
-                </property>
-                <property name="scaledContents">
-                 <bool>true</bool>
-                </property>
-               </widget>
+               <layout class="QVBoxLayout" name="verticalLayout_31">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_30">
+                  <item>
+                   <widget class="QLabel" name="label_2">
+                    <property name="text">
+                     <string>This is program for creating your resume</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer_6">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>17</width>
+                      <height>18</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_13">
+                    <property name="text">
+                     <string>You can choose which of this kind of resume you want to create</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>17</width>
+                      <height>18</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_4">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_29">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_4">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_40">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_41">
+                        <item>
+                         <widget class="QLabel" name="label_17">
+                          <property name="enabled">
+                           <bool>true</bool>
+                          </property>
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>0</height>
+                           </size>
+                          </property>
+                          <property name="text">
+                           <string>Form 1</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLabel" name="label_18">
+                          <property name="styleSheet">
+                           <string notr="true">background-image: url(:/newPrefix/form1.png);</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="pixmap">
+                           <pixmap resource="f1.qrc">:/newPrefix/form2.jpg</pixmap>
+                          </property>
+                          <property name="scaledContents">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_2">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>38</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_37">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_28">
+                        <item>
+                         <widget class="QLabel" name="label_4">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string>Form 2</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLabel" name="label_3">
+                          <property name="styleSheet">
+                           <string notr="true">background-image: url(:/newPrefix/form1.png);</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="pixmap">
+                           <pixmap resource="f1.qrc">:/newPrefix/form2.jpg</pixmap>
+                          </property>
+                          <property name="scaledContents">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>38</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_38">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_39">
+                        <item>
+                         <widget class="QLabel" name="label_15">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string>Form 3 </string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLabel" name="label_16">
+                          <property name="styleSheet">
+                           <string notr="true">background-image: url(:/newPrefix/form1.png);</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="pixmap">
+                           <pixmap resource="f1.qrc">:/newPrefix/form3.jpg</pixmap>
+                          </property>
+                          <property name="scaledContents">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer_3">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>17</width>
+                      <height>28</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_7">
+                    <item>
+                     <spacer name="horizontalSpacer_5">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_2">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>PushButton</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_4">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>48</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_3">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>PushButton</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_3">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>48</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                      <property name="text">
+                       <string>PushButton</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_6">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
               </item>
              </layout>
             </widget>
@@ -365,7 +663,7 @@ QPushButton:hover {
                  <string notr="true"/>
                 </property>
                 <property name="currentIndex">
-                 <number>6</number>
+                 <number>7</number>
                 </property>
                 <widget class="QWidget" name="F1_p1">
                  <layout class="QVBoxLayout" name="verticalLayout_27">
@@ -414,22 +712,40 @@ QPushButton:hover {
                     <item>
                      <layout class="QHBoxLayout" name="horizontalLayout_8">
                       <item>
-                       <widget class="QLabel" name="label_15">
+                       <widget class="QLabel" name="First_name_label_f1">
+                        <property name="font">
+                         <font>
+                          <family>MS Shell Dlg 2</family>
+                          <pointsize>6</pointsize>
+                          <weight>50</weight>
+                          <italic>false</italic>
+                          <bold>false</bold>
+                         </font>
+                        </property>
                         <property name="styleSheet">
                          <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                         </property>
                         <property name="text">
-                         <string>FIRST NANE</string>
+                         <string>FIRST NANE*</string>
                         </property>
                        </widget>
                       </item>
                       <item>
-                       <widget class="QLabel" name="label_16">
+                       <widget class="QLabel" name="Last_name_label_f1">
+                        <property name="font">
+                         <font>
+                          <family>MS Shell Dlg 2</family>
+                          <pointsize>6</pointsize>
+                          <weight>50</weight>
+                          <italic>false</italic>
+                          <bold>false</bold>
+                         </font>
+                        </property>
                         <property name="styleSheet">
                          <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                         </property>
                         <property name="text">
-                         <string>LAST NANE</string>
+                         <string>LAST NANE*</string>
                         </property>
                        </widget>
                       </item>
@@ -448,22 +764,22 @@ QPushButton:hover {
                     <item>
                      <layout class="QHBoxLayout" name="horizontalLayout_10">
                       <item>
-                       <widget class="QLabel" name="label_17">
+                       <widget class="QLabel" name="Feild_name_label_f1">
                         <property name="styleSheet">
                          <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                         </property>
                         <property name="text">
-                         <string>FEILD</string>
+                         <string>FEILD*</string>
                         </property>
                        </widget>
                       </item>
                       <item>
-                       <widget class="QLabel" name="label_18">
+                       <widget class="QLabel" name="Phone_label_f1">
                         <property name="styleSheet">
                          <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                         </property>
                         <property name="text">
-                         <string>PHONE</string>
+                         <string>PHONE*</string>
                         </property>
                        </widget>
                       </item>
@@ -480,12 +796,12 @@ QPushButton:hover {
                      </layout>
                     </item>
                     <item>
-                     <widget class="QLabel" name="label_19">
+                     <widget class="QLabel" name="Email_label_f1">
                       <property name="styleSheet">
                        <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                       </property>
                       <property name="text">
-                       <string>EMAIL</string>
+                       <string>EMAIL*</string>
                       </property>
                      </widget>
                     </item>
@@ -493,12 +809,12 @@ QPushButton:hover {
                      <widget class="QLineEdit" name="Email_F1"/>
                     </item>
                     <item>
-                     <widget class="QLabel" name="label_20">
+                     <widget class="QLabel" name="Github_label_f1">
                       <property name="styleSheet">
                        <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                       </property>
                       <property name="text">
-                       <string>GITHUB</string>
+                       <string>GITHUB*</string>
                       </property>
                      </widget>
                     </item>
@@ -530,18 +846,18 @@ QPushButton:hover {
                      </layout>
                     </item>
                     <item>
-                     <widget class="QLabel" name="label_21">
+                     <widget class="QLabel" name="Address_label_f1">
                       <property name="styleSheet">
                        <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
 </string>
                       </property>
                       <property name="text">
-                       <string>LINKDIN</string>
+                       <string>Address*</string>
                       </property>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLineEdit" name="Linkdin_F1"/>
+                     <widget class="QLineEdit" name="Address_F1"/>
                     </item>
                     <item>
                      <widget class="QLabel" name="label_22">
@@ -555,7 +871,13 @@ QPushButton:hover {
                      </widget>
                     </item>
                     <item>
-                     <widget class="QTextEdit" name="Summary_F1"/>
+                     <widget class="QTextEdit" name="Summary_F1">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                     </widget>
                     </item>
                     <item>
                      <widget class="QPushButton" name="F2_NEXT_2">
@@ -731,11 +1053,14 @@ QPushButton:hover {
                         <pointsize>14</pointsize>
                        </font>
                       </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
                       <property name="text">
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap resource="f1.qrc">:/newPrefix/Education.jpg</pixmap>
+                       <pixmap resource="f1.qrc">:/newPrefix/award.jpg</pixmap>
                       </property>
                       <property name="scaledContents">
                        <bool>true</bool>
@@ -1087,7 +1412,7 @@ QPushButton:hover {
                  <string notr="true">background-color: rgb(255, 255, 255);</string>
                 </property>
                 <property name="currentIndex">
-                 <number>2</number>
+                 <number>5</number>
                 </property>
                 <widget class="QWidget" name="page">
                  <layout class="QVBoxLayout" name="verticalLayout_23">
@@ -1111,12 +1436,21 @@ QPushButton:hover {
                       <item>
                        <layout class="QVBoxLayout" name="verticalLayout_9">
                         <item>
-                         <widget class="QLabel" name="label_179">
+                         <widget class="QLabel" name="First_name_label_f2">
+                          <property name="font">
+                           <font>
+                            <family>MS Shell Dlg 2</family>
+                            <pointsize>6</pointsize>
+                            <weight>50</weight>
+                            <italic>false</italic>
+                            <bold>false</bold>
+                           </font>
+                          </property>
                           <property name="styleSheet">
                            <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                           </property>
                           <property name="text">
-                           <string>FIRST NANE</string>
+                           <string>FIRST NANE*</string>
                           </property>
                          </widget>
                         </item>
@@ -1128,12 +1462,12 @@ QPushButton:hover {
                       <item>
                        <layout class="QVBoxLayout" name="verticalLayout_114">
                         <item>
-                         <widget class="QLabel" name="label_175">
+                         <widget class="QLabel" name="Last_name_label_f2">
                           <property name="styleSheet">
                            <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                           </property>
                           <property name="text">
-                           <string>LAST NANE</string>
+                           <string>LAST NANE*</string>
                           </property>
                          </widget>
                         </item>
@@ -1149,29 +1483,29 @@ QPushButton:hover {
                       <item>
                        <layout class="QVBoxLayout" name="verticalLayout_115">
                         <item>
-                         <widget class="QLabel" name="label_181">
+                         <widget class="QLabel" name="Feild_name_label_f2">
                           <property name="styleSheet">
                            <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                           </property>
                           <property name="text">
-                           <string>FEILD</string>
+                           <string>FEILD*</string>
                           </property>
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLineEdit" name="Feild_name_F3_4"/>
+                         <widget class="QLineEdit" name="Feild_name_f2"/>
                         </item>
                        </layout>
                       </item>
                       <item>
                        <layout class="QVBoxLayout" name="verticalLayout_116">
                         <item>
-                         <widget class="QLabel" name="label_182">
+                         <widget class="QLabel" name="Phone_label_f2">
                           <property name="styleSheet">
                            <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                           </property>
                           <property name="text">
-                           <string>PHONE</string>
+                           <string>PHONE*</string>
                           </property>
                          </widget>
                         </item>
@@ -1187,9 +1521,14 @@ QPushButton:hover {
                       <item>
                        <layout class="QVBoxLayout" name="verticalLayout_117">
                         <item>
-                         <widget class="QLabel" name="label_2">
+                         <widget class="QLabel" name="Year_label_f2">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
                           <property name="text">
-                           <string>Year</string>
+                           <string>Year*</string>
                           </property>
                          </widget>
                         </item>
@@ -1201,9 +1540,14 @@ QPushButton:hover {
                       <item>
                        <layout class="QVBoxLayout" name="verticalLayout_118">
                         <item>
-                         <widget class="QLabel" name="label_6">
+                         <widget class="QLabel" name="Day_label_f2">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
                           <property name="text">
-                           <string>Day</string>
+                           <string>Day*</string>
                           </property>
                          </widget>
                         </item>
@@ -1215,7 +1559,7 @@ QPushButton:hover {
                       <item>
                        <layout class="QVBoxLayout" name="verticalLayout_119">
                         <item>
-                         <widget class="QLabel" name="label_7">
+                         <widget class="QLabel" name="Month_label_f2">
                           <property name="text">
                            <string>Month</string>
                           </property>
@@ -1290,13 +1634,13 @@ QPushButton:hover {
                      </layout>
                     </item>
                     <item>
-                     <widget class="QLabel" name="label_178">
+                     <widget class="QLabel" name="Address_label_f2_2">
                       <property name="styleSheet">
                        <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
 </string>
                       </property>
                       <property name="text">
-                       <string>ADDRESS</string>
+                       <string>ADDRESS*</string>
                       </property>
                      </widget>
                     </item>
@@ -1304,12 +1648,12 @@ QPushButton:hover {
                      <widget class="QLineEdit" name="Address_F2"/>
                     </item>
                     <item>
-                     <widget class="QLabel" name="label_180">
+                     <widget class="QLabel" name="Email_label_f2">
                       <property name="styleSheet">
                        <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                       </property>
                       <property name="text">
-                       <string>EMAIL</string>
+                       <string>EMAIL*</string>
                       </property>
                      </widget>
                     </item>
@@ -1317,9 +1661,14 @@ QPushButton:hover {
                      <widget class="QLineEdit" name="Email_F2"/>
                     </item>
                     <item>
-                     <widget class="QLabel" name="label_12">
+                     <widget class="QLabel" name="URL_label_f2">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
                       <property name="text">
-                       <string>Please inter url of your picture </string>
+                       <string>Please inter url of your picture *</string>
                       </property>
                      </widget>
                     </item>
@@ -1517,7 +1866,7 @@ QPushButton:hover {
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap resource="f1.qrc">:/newPrefix/Education.jpg</pixmap>
+                       <pixmap resource="f1.qrc">:/newPrefix/award.jpg</pixmap>
                       </property>
                       <property name="scaledContents">
                        <bool>true</bool>
@@ -1868,7 +2217,7 @@ QPushButton:hover {
                  <string notr="true">background-color: rgb(255, 255, 255);</string>
                 </property>
                 <property name="currentIndex">
-                 <number>1</number>
+                 <number>0</number>
                 </property>
                 <widget class="QWidget" name="page_7">
                  <layout class="QVBoxLayout" name="verticalLayout_11">
