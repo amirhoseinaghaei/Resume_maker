@@ -1,14 +1,16 @@
 <RCC>
   <qresource prefix="newPrefix">
-    <file>2_p.png</file>
-    <file>3_p.png</file>
-    <file>1_p.png</file>
-    <file>ready.jpg</file>
-    <file>rew.png</file>
-    <file>Education.png</file>
-    <file>experience.png</file>
-    <file>language.png.jpg</file>
-    <file>skill4.png</file>
-    <file>Education.png</file>
+    <file>Pic/1_p.jpg</file>
+    <file>Pic/2_p.jpg</file>
+    <file>Pic/3_p.jpg</file>
+    <file>Pic/Education.jpg</file>
+    <file>Pic/experience.jpg</file>
+    <file>Pic/GitHub-Mark-64px.jpg</file>
+    <file>Pic/language.jpg</file>
+    <file>Pic/mail.jpg</file>
+    <file>Pic/main.jpg</file>
+    <file>Pic/ready.jpg</file>
+    <file>Pic/rew.jpg</file>
+    <file>Pic/skill4.jpg</file>
   </qresource>
 </RCC>
