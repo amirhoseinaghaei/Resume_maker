@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1034</width>
-    <height>799</height>
+    <width>1000</width>
+    <height>789</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -317,350 +317,239 @@ QPushButton:hover {
              <bool>false</bool>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-color: rgb(0, 68, 100);</string>
+             <string notr="true">background-color: rgb(0, 68, 100);
+background-color: rgb(0, 68, 100);</string>
             </property>
             <property name="currentIndex">
-             <number>1</number>
+             <number>3</number>
             </property>
             <widget class="QWidget" name="page_11">
-             <layout class="QVBoxLayout" name="verticalLayout_36">
+             <layout class="QVBoxLayout" name="verticalLayout_33">
               <item>
                <layout class="QVBoxLayout" name="verticalLayout_31">
                 <item>
-                 <layout class="QVBoxLayout" name="verticalLayout_30">
-                  <item>
-                   <widget class="QLabel" name="label_2">
-                    <property name="styleSheet">
-                     <string notr="true">color: rgb(191, 191, 191);</string>
-                    </property>
-                    <property name="text">
-                     <string>This is program for creating your resume</string>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignCenter</set>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <spacer name="verticalSpacer_6">
-                    <property name="orientation">
-                     <enum>Qt::Vertical</enum>
-                    </property>
-                    <property name="sizeHint" stdset="0">
-                     <size>
-                      <width>17</width>
-                      <height>18</height>
-                     </size>
-                    </property>
-                   </spacer>
-                  </item>
-                  <item>
-                   <widget class="QLabel" name="label_13">
-                    <property name="styleSheet">
-                     <string notr="true">color: rgb(191, 191, 191);</string>
-                    </property>
-                    <property name="text">
-                     <string>You can choose which of this kind of resume you want to create</string>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignCenter</set>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <spacer name="verticalSpacer">
-                    <property name="orientation">
-                     <enum>Qt::Vertical</enum>
-                    </property>
-                    <property name="sizeHint" stdset="0">
-                     <size>
-                      <width>17</width>
-                      <height>18</height>
-                     </size>
-                    </property>
-                   </spacer>
-                  </item>
-                 </layout>
-                </item>
-                <item>
-                 <spacer name="verticalSpacer_4">
-                  <property name="orientation">
-                   <enum>Qt::Vertical</enum>
+                 <widget class="QTextEdit" name="Subtitle">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
                   </property>
-                  <property name="sizeHint" stdset="0">
+                  <property name="minimumSize">
                    <size>
-                    <width>20</width>
-                    <height>40</height>
+                    <width>300</width>
+                    <height>200</height>
                    </size>
                   </property>
-                 </spacer>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(0, 68, 100);
+border-color: rgb(0, 68, 100);
+
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+                  </property>
+                  <property name="html">
+                   <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:72; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#bfbfbf; background-color:#004464;&quot;&gt;This is program for creating your resume&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'TT Commons,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif'; font-size:12pt; font-weight:600; color:#bfbfbf; background-color:#004464;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#004464;&quot;&gt;&lt;span style=&quot; font-family:'TT Commons,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif'; font-size:12pt; font-weight:600; color:#bfbfbf; background-color:#004464;&quot;&gt;Each resume template is expertly designed and follows the exact “resume rules” hiring managers look for. Stand out and get hired faster with field-tested resume templates.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'TT Commons,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif'; font-size:12pt; font-weight:600; color:#bfbfbf; background-color:#004464;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#004464;&quot;&gt;&lt;span style=&quot; font-family:'TT Commons,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif'; font-size:12pt; font-weight:600; color:#bfbfbf; background-color:#004464;&quot;&gt;Choose which one this form do you want ?!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                 </widget>
                 </item>
                 <item>
-                 <layout class="QVBoxLayout" name="verticalLayout_29">
+                 <layout class="QHBoxLayout" name="horizontalLayout_4">
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_4">
+                   <layout class="QVBoxLayout" name="verticalLayout_28">
                     <item>
-                     <layout class="QVBoxLayout" name="verticalLayout_40">
-                      <item>
-                       <layout class="QVBoxLayout" name="verticalLayout_41">
-                        <item>
-                         <widget class="QLabel" name="label_17">
-                          <property name="enabled">
-                           <bool>true</bool>
-                          </property>
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="minimumSize">
-                           <size>
-                            <width>0</width>
-                            <height>0</height>
-                           </size>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">color: rgb(191, 191, 191);</string>
-                          </property>
-                          <property name="text">
-                           <string>Form 1</string>
-                          </property>
-                          <property name="alignment">
-                           <set>Qt::AlignCenter</set>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QLabel" name="label_18">
-                          <property name="styleSheet">
-                           <string notr="true">background-image: url(:/newPrefix/form1.png);</string>
-                          </property>
-                          <property name="text">
-                           <string/>
-                          </property>
-                          <property name="pixmap">
-                           <pixmap resource="f1.qrc">:/newPrefix/form1.png</pixmap>
-                          </property>
-                          <property name="scaledContents">
-                           <bool>true</bool>
-                          </property>
-                         </widget>
-                        </item>
-                       </layout>
-                      </item>
-                     </layout>
-                    </item>
-                    <item>
-                     <spacer name="horizontalSpacer_2">
+                     <spacer name="verticalSpacer_4">
                       <property name="orientation">
-                       <enum>Qt::Horizontal</enum>
+                       <enum>Qt::Vertical</enum>
                       </property>
                       <property name="sizeHint" stdset="0">
                        <size>
-                        <width>38</width>
-                        <height>20</height>
+                        <width>20</width>
+                        <height>40</height>
                        </size>
                       </property>
                      </spacer>
                     </item>
                     <item>
-                     <layout class="QVBoxLayout" name="verticalLayout_37">
-                      <item>
-                       <layout class="QVBoxLayout" name="verticalLayout_28">
-                        <item>
-                         <widget class="QLabel" name="label_4">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">color: rgb(191, 191, 191);</string>
-                          </property>
-                          <property name="text">
-                           <string>Form 2</string>
-                          </property>
-                          <property name="alignment">
-                           <set>Qt::AlignCenter</set>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QLabel" name="label_3">
-                          <property name="styleSheet">
-                           <string notr="true">background-image: url(:/newPrefix/form1.png);</string>
-                          </property>
-                          <property name="text">
-                           <string/>
-                          </property>
-                          <property name="pixmap">
-                           <pixmap resource="f1.qrc">:/newPrefix/form2.png</pixmap>
-                          </property>
-                          <property name="scaledContents">
-                           <bool>true</bool>
-                          </property>
-                         </widget>
-                        </item>
-                       </layout>
-                      </item>
-                     </layout>
+                     <widget class="QLabel" name="label_3">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                        <horstretch>50</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/1_p.png</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
                     </item>
                     <item>
-                     <spacer name="horizontalSpacer">
+                     <spacer name="verticalSpacer">
                       <property name="orientation">
-                       <enum>Qt::Horizontal</enum>
+                       <enum>Qt::Vertical</enum>
                       </property>
                       <property name="sizeHint" stdset="0">
                        <size>
-                        <width>38</width>
-                        <height>20</height>
+                        <width>20</width>
+                        <height>40</height>
                        </size>
                       </property>
                      </spacer>
                     </item>
                     <item>
-                     <layout class="QVBoxLayout" name="verticalLayout_38">
-                      <item>
-                       <layout class="QVBoxLayout" name="verticalLayout_39">
-                        <item>
-                         <widget class="QLabel" name="label_15">
-                          <property name="sizePolicy">
-                           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-                            <horstretch>0</horstretch>
-                            <verstretch>0</verstretch>
-                           </sizepolicy>
-                          </property>
-                          <property name="styleSheet">
-                           <string notr="true">color: rgb(191, 191, 191);</string>
-                          </property>
-                          <property name="text">
-                           <string>Form 3 </string>
-                          </property>
-                          <property name="alignment">
-                           <set>Qt::AlignCenter</set>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QLabel" name="label_16">
-                          <property name="styleSheet">
-                           <string notr="true">background-image: url(:/newPrefix/form1.png);</string>
-                          </property>
-                          <property name="text">
-                           <string/>
-                          </property>
-                          <property name="pixmap">
-                           <pixmap resource="f1.qrc">:/newPrefix/form3.png</pixmap>
-                          </property>
-                          <property name="scaledContents">
-                           <bool>true</bool>
-                          </property>
-                         </widget>
-                        </item>
-                       </layout>
-                      </item>
-                     </layout>
+                     <widget class="QPushButton" name="First_form_b">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(191, 191, 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>First form </string>
+                      </property>
+                     </widget>
                     </item>
                    </layout>
                   </item>
                   <item>
-                   <spacer name="verticalSpacer_3">
+                   <spacer name="horizontalSpacer">
                     <property name="orientation">
-                     <enum>Qt::Vertical</enum>
+                     <enum>Qt::Horizontal</enum>
                     </property>
                     <property name="sizeHint" stdset="0">
                      <size>
-                      <width>17</width>
-                      <height>28</height>
+                      <width>48</width>
+                      <height>20</height>
                      </size>
                     </property>
                    </spacer>
                   </item>
                   <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_7">
+                   <layout class="QVBoxLayout" name="verticalLayout_29">
                     <item>
-                     <spacer name="horizontalSpacer_5">
+                     <spacer name="verticalSpacer_14">
                       <property name="orientation">
-                       <enum>Qt::Horizontal</enum>
+                       <enum>Qt::Vertical</enum>
                       </property>
                       <property name="sizeHint" stdset="0">
                        <size>
-                        <width>13</width>
-                        <height>20</height>
+                        <width>20</width>
+                        <height>40</height>
                        </size>
                       </property>
                      </spacer>
                     </item>
                     <item>
-                     <widget class="QPushButton" name="pushButton_2">
-                      <property name="styleSheet">
-                       <string notr="true">background-color: rgb(255, 255, 255);</string>
-                      </property>
+                     <widget class="QLabel" name="label_4">
                       <property name="text">
-                       <string>PushButton</string>
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/2_p.png</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
                       </property>
                      </widget>
                     </item>
                     <item>
-                     <spacer name="horizontalSpacer_4">
+                     <spacer name="verticalSpacer_3">
                       <property name="orientation">
-                       <enum>Qt::Horizontal</enum>
+                       <enum>Qt::Vertical</enum>
                       </property>
                       <property name="sizeHint" stdset="0">
                        <size>
-                        <width>48</width>
-                        <height>20</height>
+                        <width>20</width>
+                        <height>40</height>
                        </size>
                       </property>
                      </spacer>
                     </item>
                     <item>
-                     <widget class="QPushButton" name="pushButton_3">
+                     <widget class="QPushButton" name="Second_form_b">
                       <property name="styleSheet">
-                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                       <string notr="true">background-color: rgb(191, 191, 191);</string>
                       </property>
                       <property name="text">
-                       <string>PushButton</string>
+                       <string>Second form</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer_2">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>48</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_30">
+                    <item>
+                     <spacer name="verticalSpacer_15">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_13">
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/3_p.png</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
                       </property>
                      </widget>
                     </item>
                     <item>
-                     <spacer name="horizontalSpacer_3">
+                     <spacer name="verticalSpacer_16">
                       <property name="orientation">
-                       <enum>Qt::Horizontal</enum>
+                       <enum>Qt::Vertical</enum>
                       </property>
                       <property name="sizeHint" stdset="0">
                        <size>
-                        <width>48</width>
-                        <height>20</height>
+                        <width>20</width>
+                        <height>40</height>
                        </size>
                       </property>
                      </spacer>
                     </item>
                     <item>
-                     <widget class="QPushButton" name="pushButton">
+                     <widget class="QPushButton" name="Third_form_b">
                       <property name="styleSheet">
-                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                       <string notr="true">background-color: rgb(191, 191, 191);</string>
                       </property>
                       <property name="text">
-                       <string>PushButton</string>
+                       <string>Third form</string>
                       </property>
                      </widget>
-                    </item>
-                    <item>
-                     <spacer name="horizontalSpacer_6">
-                      <property name="orientation">
-                       <enum>Qt::Horizontal</enum>
-                      </property>
-                      <property name="sizeHint" stdset="0">
-                       <size>
-                        <width>13</width>
-                        <height>20</height>
-                       </size>
-                      </property>
-                     </spacer>
                     </item>
                    </layout>
                   </item>
@@ -674,197 +563,21 @@ QPushButton:hover {
              <layout class="QVBoxLayout" name="verticalLayout_102">
               <item>
                <widget class="QStackedWidget" name="stackedWidget_f1">
+                <property name="font">
+                 <font>
+                  <pointsize>6</pointsize>
+                 </font>
+                </property>
                 <property name="styleSheet">
                  <string notr="true"/>
                 </property>
                 <property name="currentIndex">
-                 <number>1</number>
+                 <number>0</number>
                 </property>
-                <widget class="QWidget" name="page0">
-                 <layout class="QVBoxLayout" name="verticalLayout_14">
-                  <item>
-                   <widget class="QLabel" name="label_51">
-                    <property name="styleSheet">
-                     <string notr="true">color: rgb(191, 191, 191);</string>
-                    </property>
-                    <property name="text">
-                     <string>This form contain a lot of parts like presonal information , languages , skills  , education  , work experience and rewards</string>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignCenter</set>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <spacer name="verticalSpacer_12">
-                    <property name="orientation">
-                     <enum>Qt::Vertical</enum>
-                    </property>
-                    <property name="sizeHint" stdset="0">
-                     <size>
-                      <width>20</width>
-                      <height>40</height>
-                     </size>
-                    </property>
-                   </spacer>
-                  </item>
-                  <item>
-                   <widget class="QLabel" name="label">
-                    <property name="styleSheet">
-                     <string notr="true">color: rgb(199, 199, 199);</string>
-                    </property>
-                    <property name="text">
-                     <string>This is the example of this form </string>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignCenter</set>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <spacer name="verticalSpacer_13">
-                    <property name="orientation">
-                     <enum>Qt::Vertical</enum>
-                    </property>
-                    <property name="sizeHint" stdset="0">
-                     <size>
-                      <width>20</width>
-                      <height>98</height>
-                     </size>
-                    </property>
-                   </spacer>
-                  </item>
-                  <item>
-                   <layout class="QVBoxLayout" name="verticalLayout_101">
-                    <item>
-                     <layout class="QHBoxLayout" name="horizontalLayout_45">
-                      <item>
-                       <spacer name="horizontalSpacer_15">
-                        <property name="orientation">
-                         <enum>Qt::Horizontal</enum>
-                        </property>
-                        <property name="sizeHint" stdset="0">
-                         <size>
-                          <width>40</width>
-                          <height>20</height>
-                         </size>
-                        </property>
-                       </spacer>
-                      </item>
-                      <item>
-                       <layout class="QVBoxLayout" name="verticalLayout_100">
-                        <item>
-                         <layout class="QVBoxLayout" name="verticalLayout_99">
-                          <item>
-                           <widget class="QLabel" name="label_50">
-                            <property name="text">
-                             <string/>
-                            </property>
-                            <property name="pixmap">
-                             <pixmap resource="f1.qrc">:/newPrefix/form1.png</pixmap>
-                            </property>
-                            <property name="scaledContents">
-                             <bool>true</bool>
-                            </property>
-                           </widget>
-                          </item>
-                          <item>
-                           <layout class="QVBoxLayout" name="verticalLayout_98">
-                            <item>
-                             <spacer name="verticalSpacer_10">
-                              <property name="orientation">
-                               <enum>Qt::Vertical</enum>
-                              </property>
-                              <property name="sizeHint" stdset="0">
-                               <size>
-                                <width>20</width>
-                                <height>40</height>
-                               </size>
-                              </property>
-                             </spacer>
-                            </item>
-                            <item>
-                             <layout class="QHBoxLayout" name="horizontalLayout_44">
-                              <item>
-                               <spacer name="horizontalSpacer_13">
-                                <property name="orientation">
-                                 <enum>Qt::Horizontal</enum>
-                                </property>
-                                <property name="sizeHint" stdset="0">
-                                 <size>
-                                  <width>40</width>
-                                  <height>20</height>
-                                 </size>
-                                </property>
-                               </spacer>
-                              </item>
-                              <item>
-                               <widget class="QPushButton" name="F1_start">
-                                <property name="styleSheet">
-                                 <string notr="true">background-color: rgb(191, 191, 191);</string>
-                                </property>
-                                <property name="text">
-                                 <string>Lets start</string>
-                                </property>
-                               </widget>
-                              </item>
-                              <item>
-                               <spacer name="horizontalSpacer_14">
-                                <property name="orientation">
-                                 <enum>Qt::Horizontal</enum>
-                                </property>
-                                <property name="sizeHint" stdset="0">
-                                 <size>
-                                  <width>40</width>
-                                  <height>20</height>
-                                 </size>
-                                </property>
-                               </spacer>
-                              </item>
-                             </layout>
-                            </item>
-                           </layout>
-                          </item>
-                         </layout>
-                        </item>
-                       </layout>
-                      </item>
-                      <item>
-                       <spacer name="horizontalSpacer_16">
-                        <property name="orientation">
-                         <enum>Qt::Horizontal</enum>
-                        </property>
-                        <property name="sizeHint" stdset="0">
-                         <size>
-                          <width>40</width>
-                          <height>20</height>
-                         </size>
-                        </property>
-                       </spacer>
-                      </item>
-                     </layout>
-                    </item>
-                    <item>
-                     <spacer name="verticalSpacer_11">
-                      <property name="orientation">
-                       <enum>Qt::Vertical</enum>
-                      </property>
-                      <property name="sizeHint" stdset="0">
-                       <size>
-                        <width>20</width>
-                        <height>40</height>
-                       </size>
-                      </property>
-                     </spacer>
-                    </item>
-                   </layout>
-                  </item>
-                 </layout>
-                </widget>
                 <widget class="QWidget" name="F1_p2">
-                 <layout class="QVBoxLayout" name="verticalLayout_20">
+                 <layout class="QVBoxLayout" name="verticalLayout_99">
                   <item>
-                   <layout class="QVBoxLayout" name="verticalLayout_10">
+                   <layout class="QVBoxLayout" name="verticalLayout_98">
                     <item>
                      <widget class="QLabel" name="label_14">
                       <property name="styleSheet">
@@ -894,10 +607,11 @@ color: rgb(191, 191, 191);</string>
                         </property>
                         <property name="styleSheet">
                          <string notr="true">color: rgb(191, 191, 191);
+font: 6pt &quot;MS Shell Dlg 2&quot;;
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                         </property>
                         <property name="text">
-                         <string>FIRST NANE*</string>
+                         <string>First Name*</string>
                         </property>
                        </widget>
                       </item>
@@ -917,7 +631,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                         </property>
                         <property name="text">
-                         <string>LAST NANE*</string>
+                         <string>Last Name*</string>
                         </property>
                        </widget>
                       </item>
@@ -950,7 +664,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                         </property>
                         <property name="text">
-                         <string>FEILD*</string>
+                         <string>Feid*</string>
                         </property>
                        </widget>
                       </item>
@@ -961,7 +675,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                         </property>
                         <property name="text">
-                         <string>PHONE*</string>
+                         <string>Phone*</string>
                         </property>
                        </widget>
                       </item>
@@ -992,7 +706,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                       </property>
                       <property name="text">
-                       <string>EMAIL*</string>
+                       <string>Email*</string>
                       </property>
                      </widget>
                     </item>
@@ -1010,7 +724,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                       </property>
                       <property name="text">
-                       <string>GITHUB*</string>
+                       <string>Github*</string>
                       </property>
                      </widget>
                     </item>
@@ -1066,11 +780,131 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLineEdit" name="Address_F1">
-                      <property name="styleSheet">
-                       <string notr="true">background-color: rgb(255, 255, 255);</string>
-                      </property>
-                     </widget>
+                     <layout class="QHBoxLayout" name="horizontalLayout_44">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_10">
+                        <item>
+                         <widget class="QLabel" name="label_11">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);</string>
+                          </property>
+                          <property name="text">
+                           <string>Country</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="country_str">
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_20">
+                        <item>
+                         <widget class="QLabel" name="label_15">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);
+</string>
+                          </property>
+                          <property name="text">
+                           <string>City</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="City_str">
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_41">
+                        <item>
+                         <widget class="QLabel" name="label_16">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);</string>
+                          </property>
+                          <property name="text">
+                           <string>Street</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="Street_str">
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_91">
+                        <item>
+                         <widget class="QLabel" name="label_17">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);</string>
+                          </property>
+                          <property name="text">
+                           <string>Num</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="Num_str">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>40</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
                     </item>
                     <item>
                      <widget class="QLabel" name="label_22">
@@ -1080,7 +914,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
 </string>
                       </property>
                       <property name="text">
-                       <string>SUMMAR ABOUT YOURSELF</string>
+                       <string>Summary about yourself</string>
                       </property>
                      </widget>
                     </item>
@@ -1099,7 +933,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                     <item>
                      <widget class="QPushButton" name="F2_NEXT_2">
                       <property name="styleSheet">
-                       <string notr="true">background-color: rgb(191, 191, 191);</string>
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
                       </property>
                       <property name="text">
                        <string>NEXT</string>
@@ -1134,6 +968,27 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                      </widget>
                     </item>
                     <item>
+                     <widget class="QLabel" name="label_10">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(191, 191, 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>Language</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
                      <widget class="QLineEdit" name="lang_line_edit_f1">
                       <property name="styleSheet">
                        <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -1162,7 +1017,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                     <item>
                      <widget class="QPushButton" name="ADD_LANG_F1">
                       <property name="styleSheet">
-                       <string notr="true">background-color: rgb(191, 191, 191);</string>
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
                       </property>
                       <property name="text">
                        <string>Add</string>
@@ -1174,7 +1029,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                       <item>
                        <widget class="QPushButton" name="F4_PREVIOUS_2">
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191, 191);</string>
+                         <string notr="true">background-color: rgb(191, 191 191);</string>
                         </property>
                         <property name="text">
                          <string>PREVIOUS</string>
@@ -1184,7 +1039,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                       <item>
                        <widget class="QPushButton" name="F4_NEXT_2">
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191, 191);</string>
+                         <string notr="true">background-color: rgb(191, 191 191);</string>
                         </property>
                         <property name="text">
                          <string>NEXT</string>
@@ -1198,91 +1053,108 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                  </layout>
                 </widget>
                 <widget class="QWidget" name="F1_p3">
-                 <layout class="QVBoxLayout" name="verticalLayout_33">
+                 <layout class="QVBoxLayout" name="verticalLayout_32">
                   <item>
-                   <layout class="QVBoxLayout" name="verticalLayout_32">
+                   <widget class="QLabel" name="label_39">
+                    <property name="styleSheet">
+                     <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap resource="f1.qrc">:/newPrefix/skill4.png</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_8">
                     <item>
-                     <layout class="QVBoxLayout" name="verticalLayout_8">
-                      <item>
-                       <widget class="QLabel" name="label_39">
-                        <property name="styleSheet">
-                         <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
-                        </property>
-                        <property name="text">
-                         <string/>
-                        </property>
-                        <property name="pixmap">
-                         <pixmap resource="f1.qrc">:/newPrefix/skill4.png</pixmap>
-                        </property>
-                        <property name="scaledContents">
-                         <bool>true</bool>
-                        </property>
-                        <property name="alignment">
-                         <set>Qt::AlignCenter</set>
-                        </property>
-                       </widget>
-                      </item>
-                      <item>
-                       <widget class="QLineEdit" name="skill_line_edit_f1">
-                        <property name="styleSheet">
-                         <string notr="true">background-color: rgb(255, 255, 255);</string>
-                        </property>
-                       </widget>
-                      </item>
-                      <item>
-                       <widget class="QSlider" name="skill_slider_f1">
-                        <property name="maximum">
-                         <number>5</number>
-                        </property>
-                        <property name="pageStep">
-                         <number>1</number>
-                        </property>
-                        <property name="tracking">
-                         <bool>false</bool>
-                        </property>
-                        <property name="orientation">
-                         <enum>Qt::Horizontal</enum>
-                        </property>
-                        <property name="invertedAppearance">
-                         <bool>false</bool>
-                        </property>
-                       </widget>
-                      </item>
-                      <item>
-                       <widget class="QPushButton" name="ADD_SKILL_F1">
-                        <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191, 191);</string>
-                        </property>
-                        <property name="text">
-                         <string>Add</string>
-                        </property>
-                       </widget>
-                      </item>
-                     </layout>
+                     <widget class="QLabel" name="label_58">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(191, 191, 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>Skill</string>
+                      </property>
+                     </widget>
                     </item>
                     <item>
-                     <layout class="QHBoxLayout" name="horizontalLayout_17">
-                      <item>
-                       <widget class="QPushButton" name="F3_PREVIOUS_2">
-                        <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191, 191);</string>
-                        </property>
-                        <property name="text">
-                         <string>PREVIOUS</string>
-                        </property>
-                       </widget>
-                      </item>
-                      <item>
-                       <widget class="QPushButton" name="F3_NEXT_2">
-                        <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191, 191);</string>
-                        </property>
-                        <property name="text">
-                         <string>NEXT</string>
-                        </property>
-                       </widget>
-                      </item>
-                     </layout>
+                     <widget class="QLineEdit" name="skill_line_edit_f1">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QSlider" name="skill_slider_f1">
+                    <property name="maximum">
+                     <number>5</number>
+                    </property>
+                    <property name="pageStep">
+                     <number>1</number>
+                    </property>
+                    <property name="tracking">
+                     <bool>false</bool>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="invertedAppearance">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="ADD_SKILL_F1">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(191, 191 191);</string>
+                    </property>
+                    <property name="text">
+                     <string>Add</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_17">
+                    <item>
+                     <widget class="QPushButton" name="F3_PREVIOUS_2">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>PREVIOUS</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="F3_NEXT_2">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>NEXT</string>
+                      </property>
+                     </widget>
                     </item>
                    </layout>
                   </item>
@@ -1331,7 +1203,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                            <string notr="true">color: rgb(191, 191, 191);</string>
                           </property>
                           <property name="text">
-                           <string>UNIVERSITY NAME</string>
+                           <string>University name</string>
                           </property>
                          </widget>
                         </item>
@@ -1373,6 +1245,21 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                      </layout>
                     </item>
                     <item>
+                     <widget class="QLabel" name="label_57">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(191, 191, 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>Summary</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
                      <widget class="QTextEdit" name="summary_text_edit_f1">
                       <property name="styleSheet">
                        <string notr="true">background-color: rgb(250, 250, 250);</string>
@@ -1394,7 +1281,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                            <string notr="true">color: rgb(191, 191, 191);</string>
                           </property>
                           <property name="text">
-                           <string>FROM</string>
+                           <string>From</string>
                           </property>
                          </widget>
                         </item>
@@ -1420,7 +1307,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                            <string notr="true">color: rgb(191, 191, 191);</string>
                           </property>
                           <property name="text">
-                           <string>TO</string>
+                           <string>To</string>
                           </property>
                          </widget>
                         </item>
@@ -1438,7 +1325,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                     <item>
                      <widget class="QPushButton" name="ADD_EDUCATION_F1_2">
                       <property name="styleSheet">
-                       <string notr="true">background-color: rgb(191, 191, 191);</string>
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
                       </property>
                       <property name="text">
                        <string>ADD</string>
@@ -1450,7 +1337,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                       <item>
                        <widget class="QPushButton" name="F5_PREVIOUS_2">
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191, 191);</string>
+                         <string notr="true">background-color: rgb(191, 191 191);</string>
                         </property>
                         <property name="text">
                          <string>PREVIOUS</string>
@@ -1460,7 +1347,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                       <item>
                        <widget class="QPushButton" name="F5_NEXT_2">
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191, 191);</string>
+                         <string notr="true">background-color: rgb(191, 191 191);</string>
                         </property>
                         <property name="text">
                          <string>NEXT</string>
@@ -1474,9 +1361,9 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                  </layout>
                 </widget>
                 <widget class="QWidget" name="F1_p6">
-                 <layout class="QVBoxLayout" name="verticalLayout_35">
+                 <layout class="QVBoxLayout" name="verticalLayout_101">
                   <item>
-                   <layout class="QVBoxLayout" name="verticalLayout_13">
+                   <layout class="QVBoxLayout" name="verticalLayout_100">
                     <item>
                      <widget class="QLabel" name="label_33">
                       <property name="font">
@@ -1499,9 +1386,39 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                      </widget>
                     </item>
                     <item>
+                     <widget class="QLabel" name="label_54">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(191, 191, 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>Company</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
                      <widget class="QLineEdit" name="title_line_edit_f1_2">
                       <property name="styleSheet">
                        <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_55">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(191, 191, 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>Summary</string>
                       </property>
                      </widget>
                     </item>
@@ -1513,59 +1430,67 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLabel" name="label_44">
-                      <property name="font">
-                       <font>
-                        <pointsize>6</pointsize>
-                       </font>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">color: rgb(191, 191, 191);</string>
-                      </property>
-                      <property name="text">
-                       <string>From</string>
-                      </property>
-                      <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                      </property>
-                     </widget>
+                     <layout class="QVBoxLayout" name="verticalLayout_13">
+                      <item>
+                       <widget class="QLabel" name="label_44">
+                        <property name="font">
+                         <font>
+                          <pointsize>6</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(191, 191, 191);</string>
+                        </property>
+                        <property name="text">
+                         <string>From</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="from_w_date_edit_f1">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(255, 255, 255);</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
                     </item>
                     <item>
-                     <widget class="QLineEdit" name="from_w_date_edit_f1">
-                      <property name="styleSheet">
-                       <string notr="true">background-color: rgb(255, 255, 255);</string>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QLabel" name="label_45">
-                      <property name="font">
-                       <font>
-                        <pointsize>6</pointsize>
-                       </font>
-                      </property>
-                      <property name="styleSheet">
-                       <string notr="true">color: rgb(191, 191, 191);</string>
-                      </property>
-                      <property name="text">
-                       <string>To</string>
-                      </property>
-                      <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QLineEdit" name="to_w_date_edit_f1">
-                      <property name="styleSheet">
-                       <string notr="true">background-color: rgb(255, 255, 255);</string>
-                      </property>
-                     </widget>
+                     <layout class="QVBoxLayout" name="verticalLayout_35">
+                      <item>
+                       <widget class="QLabel" name="label_45">
+                        <property name="font">
+                         <font>
+                          <pointsize>6</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(191, 191, 191);</string>
+                        </property>
+                        <property name="text">
+                         <string>To</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="to_w_date_edit_f1">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(255, 255, 255);</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
                     </item>
                     <item>
                      <widget class="QPushButton" name="ADD_WORK_F1_2">
                       <property name="styleSheet">
-                       <string notr="true">background-color: rgb(191, 191, 191);</string>
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
                       </property>
                       <property name="text">
                        <string>ADD</string>
@@ -1577,7 +1502,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                       <item>
                        <widget class="QPushButton" name="F6_PREVIOUS_2">
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191, 191);</string>
+                         <string notr="true">background-color: rgb(191, 191 191);</string>
                         </property>
                         <property name="text">
                          <string>PREVIOUS</string>
@@ -1587,7 +1512,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                       <item>
                        <widget class="QPushButton" name="F6_NEXT_2">
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191, 191);</string>
+                         <string notr="true">background-color: rgb(191, 191 191);</string>
                         </property>
                         <property name="text">
                          <string>NEXT</string>
@@ -1626,6 +1551,21 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                      </widget>
                     </item>
                     <item>
+                     <widget class="QLabel" name="label_56">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(191, 191, 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>Title</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
                      <widget class="QTextEdit" name="award_summary_text_edit_f1">
                       <property name="styleSheet">
                        <string notr="true">background-color: rgb(255, 255, 255);</string>
@@ -1643,7 +1583,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                        <string notr="true">color: rgb(191, 191, 191);</string>
                       </property>
                       <property name="text">
-                       <string>DATE</string>
+                       <string>Date</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1660,7 +1600,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                     <item>
                      <widget class="QPushButton" name="ADD_AWARD">
                       <property name="styleSheet">
-                       <string notr="true">background-color: rgb(191, 191 , 191);</string>
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
                       </property>
                       <property name="text">
                        <string>ADD</string>
@@ -1672,7 +1612,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                       <item>
                        <widget class="QPushButton" name="F7_PREVIOUS_2">
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191 , 191);</string>
+                         <string notr="true">background-color: rgb(191, 191 191);</string>
                         </property>
                         <property name="text">
                          <string>PREVIOUS</string>
@@ -1682,7 +1622,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                       <item>
                        <widget class="QPushButton" name="F7_NEXT_2">
                         <property name="styleSheet">
-                         <string notr="true">background-color: rgb(191, 191, 191);</string>
+                         <string notr="true">background-color: rgb(191, 191 191);</string>
                         </property>
                         <property name="text">
                          <string>NEXT</string>
@@ -1696,9 +1636,9 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                  </layout>
                 </widget>
                 <widget class="QWidget" name="F1_p8">
-                 <layout class="QVBoxLayout" name="verticalLayout_18">
+                 <layout class="QVBoxLayout" name="verticalLayout_103">
                   <item>
-                   <layout class="QVBoxLayout" name="verticalLayout_17">
+                   <layout class="QVBoxLayout" name="verticalLayout_27">
                     <item>
                      <widget class="QLabel" name="label_46">
                       <property name="font">
@@ -1721,7 +1661,81 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                      </widget>
                     </item>
                     <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_46">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_18">
+                        <item>
+                         <widget class="QLabel" name="label_52">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);</string>
+                          </property>
+                          <property name="text">
+                           <string>Font</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QComboBox" name="font_f1_combo">
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                          <item>
+                           <property name="text">
+                            <string>arial</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>times</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>courier</string>
+                           </property>
+                          </item>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_17">
+                        <item>
+                         <widget class="QLabel" name="label_53">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);</string>
+                          </property>
+                          <property name="text">
+                           <string>Size</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QSpinBox" name="fontsize_f1_spinbox">
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
                      <widget class="QPushButton" name="f1_create_button">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
+                      </property>
                       <property name="text">
                        <string>Create</string>
                       </property>
@@ -1729,6 +1743,9 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                     </item>
                     <item>
                      <widget class="QPushButton" name="F8_PREVIOUS">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
+                      </property>
                       <property name="text">
                        <string>PREVIOUS</string>
                       </property>
@@ -1743,14 +1760,14 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
              </layout>
             </widget>
             <widget class="QWidget" name="page_2">
-             <layout class="QVBoxLayout" name="verticalLayout_24">
+             <layout class="QVBoxLayout" name="verticalLayout_14">
               <item>
                <widget class="QStackedWidget" name="stackedWidget_2">
                 <property name="styleSheet">
                  <string notr="true">background-color: rgb(0, 68, 100);</string>
                 </property>
                 <property name="currentIndex">
-                 <number>0</number>
+                 <number>5</number>
                 </property>
                 <widget class="QWidget" name="page">
                  <layout class="QVBoxLayout" name="verticalLayout_23">
@@ -1790,7 +1807,7 @@ color: rgb(191, 191, 191);</string>
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                           </property>
                           <property name="text">
-                           <string>FIRST NANE*</string>
+                           <string>First Name*</string>
                           </property>
                          </widget>
                         </item>
@@ -1812,7 +1829,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                           </property>
                           <property name="text">
-                           <string>LAST NANE*</string>
+                           <string>Last Name*</string>
                           </property>
                          </widget>
                         </item>
@@ -1838,7 +1855,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                           </property>
                           <property name="text">
-                           <string>FEILD*</string>
+                           <string>Feild*</string>
                           </property>
                          </widget>
                         </item>
@@ -1860,7 +1877,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                           </property>
                           <property name="text">
-                           <string>PHONE*</string>
+                           <string>Phone*</string>
                           </property>
                          </widget>
                         </item>
@@ -2022,7 +2039,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
 </string>
                       </property>
                       <property name="text">
-                       <string>ADDRESS*</string>
+                       <string>Address*</string>
                       </property>
                      </widget>
                     </item>
@@ -2040,7 +2057,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                       </property>
                       <property name="text">
-                       <string>EMAIL*</string>
+                       <string>Email*</string>
                       </property>
                      </widget>
                     </item>
@@ -2081,7 +2098,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                          <string notr="true">background-color: rgb(191, 191 191);</string>
                         </property>
                         <property name="text">
-                         <string>Add  picture</string>
+                         <string>Add  Picture</string>
                         </property>
                        </widget>
                       </item>
@@ -2140,6 +2157,27 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(191, 191, 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>Language</string>
                       </property>
                      </widget>
                     </item>
@@ -2227,6 +2265,27 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_2">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(191, 191, 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>Skill</string>
                       </property>
                      </widget>
                     </item>
@@ -2321,6 +2380,11 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                     </item>
                     <item>
                      <widget class="QLabel" name="label_8">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
                       <property name="styleSheet">
                        <string notr="true">color: rgb(191, 191, 191);
 </string>
@@ -2353,7 +2417,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
 </string>
                           </property>
                           <property name="text">
-                           <string>UNIVERSITY NAME</string>
+                           <string>University Name</string>
                           </property>
                          </widget>
                         </item>
@@ -2391,7 +2455,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
 </string>
                           </property>
                           <property name="text">
-                           <string>FROM</string>
+                           <string>From</string>
                           </property>
                          </widget>
                         </item>
@@ -2418,7 +2482,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
 </string>
                           </property>
                           <property name="text">
-                           <string>TO</string>
+                           <string>To</string>
                           </property>
                          </widget>
                         </item>
@@ -2472,268 +2536,294 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                  </layout>
                 </widget>
                 <widget class="QWidget" name="page_26">
-                 <layout class="QVBoxLayout" name="verticalLayout_110">
+                 <layout class="QVBoxLayout" name="verticalLayout_40">
                   <item>
-                   <widget class="QLabel" name="label_169">
-                    <property name="font">
-                     <font>
-                      <pointsize>14</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string/>
-                    </property>
-                    <property name="pixmap">
-                     <pixmap resource="f1.qrc">:/newPrefix/experience.png</pixmap>
-                    </property>
-                    <property name="scaledContents">
-                     <bool>true</bool>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignCenter</set>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLabel" name="label_9">
-                    <property name="styleSheet">
-                     <string notr="true">color: rgb(191, 191, 191);
-</string>
-                    </property>
-                    <property name="text">
-                     <string>Company</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLineEdit" name="company_line_edit_f1_6">
-                    <property name="styleSheet">
-                     <string notr="true">background-color: rgb(255, 255, 255);</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLabel" name="title_edit_f1_6">
-                    <property name="styleSheet">
-                     <string notr="true">color: rgb(191, 191, 191);
-</string>
-                    </property>
-                    <property name="text">
-                     <string>Title</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLineEdit" name="title_line_edit_f1_6">
-                    <property name="styleSheet">
-                     <string notr="true">background-color: rgb(255, 255, 255);</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QPlainTextEdit" name="work_summary_text_edit_f1_5">
-                    <property name="styleSheet">
-                     <string notr="true">background-color: rgb(255, 255, 255);</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLabel" name="label_168">
-                    <property name="font">
-                     <font>
-                      <pointsize>6</pointsize>
-                     </font>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">color: rgb(191, 191, 191);
-</string>
-                    </property>
-                    <property name="text">
-                     <string>From</string>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLineEdit" name="from_w_date_edit_f1_5">
-                    <property name="styleSheet">
-                     <string notr="true">background-color: rgb(255, 255, 255);</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLabel" name="label_167">
-                    <property name="font">
-                     <font>
-                      <pointsize>6</pointsize>
-                     </font>
-                    </property>
-                    <property name="styleSheet">
-                     <string notr="true">color: rgb(191, 191, 191);
-</string>
-                    </property>
-                    <property name="text">
-                     <string>To</string>
-                    </property>
-                    <property name="alignment">
-                     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLineEdit" name="to_w_date_edit_f1_5">
-                    <property name="styleSheet">
-                     <string notr="true">background-color: rgb(255, 255, 255);</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QPushButton" name="ADD_WORK_F1_6">
-                    <property name="styleSheet">
-                     <string notr="true">background-color: rgb(191, 191, 191);</string>
-                    </property>
-                    <property name="text">
-                     <string>ADD</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_82">
+                   <layout class="QVBoxLayout" name="verticalLayout_39">
                     <item>
-                     <widget class="QPushButton" name="F6_PREVIOUS_6">
-                      <property name="styleSheet">
-                       <string notr="true">background-color: rgb(191,191, 191);</string>
+                     <widget class="QLabel" name="label_169">
+                      <property name="font">
+                       <font>
+                        <pointsize>14</pointsize>
+                       </font>
                       </property>
                       <property name="text">
-                       <string>PREVIOUS</string>
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/experience.png</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QPushButton" name="F6_NEXT_6">
+                     <widget class="QLabel" name="label_9">
                       <property name="styleSheet">
-                       <string notr="true">background-color: rgb(191, 191, 191);</string>
+                       <string notr="true">color: rgb(191, 191, 191);
+</string>
                       </property>
                       <property name="text">
-                       <string>NEXT</string>
+                       <string>Company</string>
                       </property>
                      </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="company_line_edit_f1_6">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="title_edit_f1_6">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(191, 191, 191);
+</string>
+                      </property>
+                      <property name="text">
+                       <string>Title</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="title_line_edit_f1_6">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPlainTextEdit" name="work_summary_text_edit_f1_5">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_7">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_37">
+                        <item>
+                         <widget class="QLabel" name="label_168">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);
+</string>
+                          </property>
+                          <property name="text">
+                           <string>From</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="from_w_date_edit_f1_5">
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_38">
+                        <item>
+                         <widget class="QLabel" name="label_167">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);
+</string>
+                          </property>
+                          <property name="text">
+                           <string>To</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="to_w_date_edit_f1_5">
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="ADD_WORK_F1_6">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>ADD</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_82">
+                      <item>
+                       <widget class="QPushButton" name="F6_PREVIOUS_6">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(191, 191 191);</string>
+                        </property>
+                        <property name="text">
+                         <string>PREVIOUS</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="F6_NEXT_6">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(191, 191 191);</string>
+                        </property>
+                        <property name="text">
+                         <string>NEXT</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
                     </item>
                    </layout>
                   </item>
                  </layout>
                 </widget>
                 <widget class="QWidget" name="page_28">
-                 <widget class="QPushButton" name="f1_create_button_5">
-                  <property name="geometry">
-                   <rect>
-                    <x>12</x>
-                    <y>58</y>
-                    <width>93</width>
-                    <height>28</height>
-                   </rect>
-                  </property>
-                  <property name="text">
-                   <string>Create</string>
-                  </property>
-                 </widget>
-                 <widget class="QPushButton" name="F8_PREVIOUS_5">
-                  <property name="geometry">
-                   <rect>
-                    <x>12</x>
-                    <y>93</y>
-                    <width>93</width>
-                    <height>28</height>
-                   </rect>
-                  </property>
-                  <property name="text">
-                   <string>PREVIOUS</string>
-                  </property>
-                 </widget>
-                 <widget class="QWidget" name="layoutWidget">
-                  <property name="geometry">
-                   <rect>
-                    <x>90</x>
-                    <y>13</y>
-                    <width>41</width>
-                    <height>41</height>
-                   </rect>
-                  </property>
-                  <layout class="QVBoxLayout" name="verticalLayout_25">
-                   <item>
-                    <widget class="QLabel" name="label_10">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="font">
-                      <font>
-                       <pointsize>6</pointsize>
-                      </font>
-                     </property>
-                     <property name="text">
-                      <string>Font size</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QSpinBox" name="fontsize_f2_spinBox"/>
-                   </item>
-                  </layout>
-                 </widget>
-                 <widget class="QWidget" name="layoutWidget">
-                  <property name="geometry">
-                   <rect>
-                    <x>13</x>
-                    <y>13</y>
-                    <width>78</width>
-                    <height>41</height>
-                   </rect>
-                  </property>
-                  <layout class="QVBoxLayout" name="verticalLayout_12">
-                   <item>
-                    <widget class="QLabel" name="label_11">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="font">
-                      <font>
-                       <pointsize>6</pointsize>
-                      </font>
-                     </property>
-                     <property name="text">
-                      <string>Font name</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QComboBox" name="font_f2_comboBox">
-                     <item>
-                      <property name="text">
-                       <string>arial </string>
+                 <layout class="QVBoxLayout" name="verticalLayout_12">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_36">
+                    <item>
+                     <widget class="QLabel" name="label_50">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
                       </property>
-                     </item>
-                     <item>
                       <property name="text">
-                       <string>times</string>
+                       <string/>
                       </property>
-                     </item>
-                     <item>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/ready.jpg</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_47">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_24">
+                        <item>
+                         <widget class="QLabel" name="label_59">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);</string>
+                          </property>
+                          <property name="text">
+                           <string>Font</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QComboBox" name="font_f2_combo">
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                          <item>
+                           <property name="text">
+                            <string>arial</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>times</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>courier</string>
+                           </property>
+                          </item>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_25">
+                        <item>
+                         <widget class="QLabel" name="label_60">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);</string>
+                          </property>
+                          <property name="text">
+                           <string>Size</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QSpinBox" name="fontsize_f2_spinBox">
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="f1_create_button_5">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
+                      </property>
                       <property name="text">
-                       <string>courier </string>
+                       <string>Create</string>
                       </property>
-                     </item>
-                    </widget>
-                   </item>
-                  </layout>
-                 </widget>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="F8_PREVIOUS_5">
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>PREVIOUS</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
                 </widget>
                </widget>
               </item>
@@ -2748,36 +2838,12 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
 </string>
                 </property>
                 <property name="currentIndex">
-                 <number>3</number>
+                 <number>5</number>
                 </property>
-                <widget class="QWidget" name="page_14">
-                 <layout class="QVBoxLayout" name="verticalLayout_91">
-                  <item>
-                   <widget class="QLabel" name="label_43">
-                    <property name="text">
-                     <string/>
-                    </property>
-                    <property name="pixmap">
-                     <pixmap resource="f1.qrc">:/newPrefix/form1.png</pixmap>
-                    </property>
-                    <property name="scaledContents">
-                     <bool>true</bool>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QPushButton" name="pushButton_7">
-                    <property name="text">
-                     <string>Lets start</string>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
-                </widget>
                 <widget class="QWidget" name="page_10">
-                 <layout class="QVBoxLayout" name="verticalLayout_78">
+                 <layout class="QVBoxLayout" name="verticalLayout_137">
                   <item>
-                   <layout class="QVBoxLayout" name="verticalLayout_132">
+                   <layout class="QVBoxLayout" name="verticalLayout_136">
                     <item>
                      <widget class="QLabel" name="label_180">
                       <property name="styleSheet">
@@ -2812,7 +2878,7 @@ color: rgb(191, 191, 191);</string>
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
                           </property>
                           <property name="text">
-                           <string>FIRST NANE*</string>
+                           <string>First Name*</string>
                           </property>
                          </widget>
                         </item>
@@ -2834,7 +2900,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
 color: rgb(191, 191, 191);</string>
                           </property>
                           <property name="text">
-                           <string>LAST NANE*</string>
+                           <string>Last Name*</string>
                           </property>
                          </widget>
                         </item>
@@ -2860,12 +2926,12 @@ color: rgb(191, 191, 191);</string>
 color: rgb(191, 191, 191);</string>
                           </property>
                           <property name="text">
-                           <string>Home *</string>
+                           <string>Feild *</string>
                           </property>
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLineEdit" name="Home_phone_f3">
+                         <widget class="QLineEdit" name="Feild_name_f3">
                           <property name="styleSheet">
                            <string notr="true">background-color: rgb(255, 255, 255);</string>
                           </property>
@@ -2898,11 +2964,27 @@ color: rgb(191, 191, 191);</string>
                      </layout>
                     </item>
                     <item>
-                     <layout class="QHBoxLayout" name="horizontalLayout_39">
+                     <widget class="QLabel" name="label_62">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">
+color: rgb(191, 191, 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>Address</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_45">
                       <item>
-                       <layout class="QVBoxLayout" name="verticalLayout_136">
+                       <layout class="QVBoxLayout" name="verticalLayout_111">
                         <item>
-                         <widget class="QLabel" name="Year_label_f3">
+                         <widget class="QLabel" name="label_18">
                           <property name="font">
                            <font>
                             <pointsize>6</pointsize>
@@ -2912,12 +2994,12 @@ color: rgb(191, 191, 191);</string>
                            <string notr="true">color: rgb(191, 191, 191);</string>
                           </property>
                           <property name="text">
-                           <string>Year*</string>
+                           <string>Country</string>
                           </property>
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLineEdit" name="Year_F3">
+                         <widget class="QLineEdit" name="country_str_2">
                           <property name="styleSheet">
                            <string notr="true">background-color: rgb(255, 255, 255);</string>
                           </property>
@@ -2926,9 +3008,36 @@ color: rgb(191, 191, 191);</string>
                        </layout>
                       </item>
                       <item>
-                       <layout class="QVBoxLayout" name="verticalLayout_137">
+                       <layout class="QVBoxLayout" name="verticalLayout_132">
                         <item>
-                         <widget class="QLabel" name="Day_label_f3">
+                         <widget class="QLabel" name="label_43">
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);
+</string>
+                          </property>
+                          <property name="text">
+                           <string>City</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="City_str_2">
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_144">
+                        <item>
+                         <widget class="QLabel" name="label_51">
                           <property name="font">
                            <font>
                             <pointsize>6</pointsize>
@@ -2938,12 +3047,12 @@ color: rgb(191, 191, 191);</string>
                            <string notr="true">color: rgb(191, 191, 191);</string>
                           </property>
                           <property name="text">
-                           <string>Day*</string>
+                           <string>Street</string>
                           </property>
                          </widget>
                         </item>
                         <item>
-                         <widget class="QLineEdit" name="Day_F3">
+                         <widget class="QLineEdit" name="Street_str_2">
                           <property name="styleSheet">
                            <string notr="true">background-color: rgb(255, 255, 255);</string>
                           </property>
@@ -2952,83 +3061,45 @@ color: rgb(191, 191, 191);</string>
                        </layout>
                       </item>
                       <item>
-                       <layout class="QVBoxLayout" name="verticalLayout_138">
+                       <layout class="QVBoxLayout" name="verticalLayout_145">
                         <item>
-                         <widget class="QLabel" name="Month_label_f3">
+                         <widget class="QLabel" name="label_61">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
                           <property name="styleSheet">
                            <string notr="true">color: rgb(191, 191, 191);</string>
                           </property>
                           <property name="text">
-                           <string>Month</string>
+                           <string>Num</string>
                           </property>
                          </widget>
                         </item>
                         <item>
-                         <widget class="QComboBox" name="Month_F3">
-                          <property name="styleSheet">
-                           <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(255, 255, 255);</string>
+                         <widget class="QLineEdit" name="Num_str_2">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
                           </property>
-                          <item>
-                           <property name="text">
-                            <string>January</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>February</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>March</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>April</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>May</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>June</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>July</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>August</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>September</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>October</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>November</string>
-                           </property>
-                          </item>
-                          <item>
-                           <property name="text">
-                            <string>December</string>
-                           </property>
-                          </item>
+                          <property name="maximumSize">
+                           <size>
+                            <width>40</width>
+                            <height>30</height>
+                           </size>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
                          </widget>
                         </item>
                        </layout>
@@ -3036,40 +3107,48 @@ background-color: rgb(255, 255, 255);</string>
                      </layout>
                     </item>
                     <item>
-                     <widget class="QLabel" name="Address_label_f2_4">
-                      <property name="styleSheet">
-                       <string notr="true">font: 6pt &quot;MS Shell Dlg 2&quot;;
-color: rgb(191, 191, 191);</string>
-                      </property>
-                      <property name="text">
-                       <string>ADDRESS*</string>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QLineEdit" name="Address_F3">
-                      <property name="styleSheet">
-                       <string notr="true">background-color: rgb(255, 255, 255);</string>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QLabel" name="Email_label_f2_3">
-                      <property name="styleSheet">
-                       <string notr="true">color: rgb(191, 191, 191);
+                     <layout class="QVBoxLayout" name="verticalLayout_78">
+                      <item>
+                       <widget class="QLabel" name="Email_label_f2_3">
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(191, 191, 191);
 font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
-                      </property>
-                      <property name="text">
-                       <string>EMAIL*</string>
-                      </property>
-                     </widget>
+                        </property>
+                        <property name="text">
+                         <string>Email*</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="Email_F3">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(255, 255, 255);</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
                     </item>
                     <item>
-                     <widget class="QLineEdit" name="Email_F3">
-                      <property name="styleSheet">
-                       <string notr="true">background-color: rgb(255, 255, 255);</string>
-                      </property>
-                     </widget>
+                     <layout class="QVBoxLayout" name="verticalLayout_110">
+                      <item>
+                       <widget class="QLabel" name="Email_label_f2_4">
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(191, 191, 191);
+font: 6pt &quot;MS Shell Dlg 2&quot;;</string>
+                        </property>
+                        <property name="text">
+                         <string>Website*</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="Website_F3">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(255, 255, 255);</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
                     </item>
                     <item>
                      <widget class="QLabel" name="URL_label_f2_3">
@@ -3171,7 +3250,7 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                      </widget>
                     </item>
                     <item>
-                     <widget class="QSlider" name="lang_slider_f2_3">
+                     <widget class="QSlider" name="lang_slider_f3">
                       <property name="maximum">
                        <number>5</number>
                       </property>
@@ -3252,14 +3331,14 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLineEdit" name="skill_line_edit_f2_3">
+                     <widget class="QLineEdit" name="skill_line_edit_f3">
                       <property name="styleSheet">
                        <string notr="true">background-color: rgb(255, 255, 255);</string>
                       </property>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QSlider" name="skill_slider_f2_3">
+                     <widget class="QSlider" name="skill_slider_f3">
                       <property name="styleSheet">
                        <string notr="true">background-color: rgb(0, 68, 100);</string>
                       </property>
@@ -3653,114 +3732,160 @@ font: 6pt &quot;MS Shell Dlg 2&quot;;
                  </layout>
                 </widget>
                 <widget class="QWidget" name="page_38">
-                 <widget class="QPushButton" name="f1_create_button_7">
-                  <property name="geometry">
-                   <rect>
-                    <x>12</x>
-                    <y>58</y>
-                    <width>93</width>
-                    <height>28</height>
-                   </rect>
-                  </property>
-                  <property name="text">
-                   <string>Create</string>
-                  </property>
-                 </widget>
-                 <widget class="QPushButton" name="F8_PREVIOUS_7">
-                  <property name="geometry">
-                   <rect>
-                    <x>12</x>
-                    <y>93</y>
-                    <width>93</width>
-                    <height>28</height>
-                   </rect>
-                  </property>
-                  <property name="text">
-                   <string>PREVIOUS</string>
-                  </property>
-                 </widget>
-                 <widget class="QWidget" name="layoutWidget_6">
-                  <property name="geometry">
-                   <rect>
-                    <x>90</x>
-                    <y>13</y>
-                    <width>41</width>
-                    <height>41</height>
-                   </rect>
-                  </property>
-                  <layout class="QVBoxLayout" name="verticalLayout_80">
-                   <item>
-                    <widget class="QLabel" name="label_37">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="font">
-                      <font>
-                       <pointsize>6</pointsize>
-                      </font>
-                     </property>
-                     <property name="text">
-                      <string>Font size</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QSpinBox" name="fontsize_f2_spinBox_3"/>
-                   </item>
-                  </layout>
-                 </widget>
-                 <widget class="QWidget" name="layoutWidget_7">
-                  <property name="geometry">
-                   <rect>
-                    <x>13</x>
-                    <y>13</y>
-                    <width>78</width>
-                    <height>41</height>
-                   </rect>
-                  </property>
-                  <layout class="QVBoxLayout" name="verticalLayout_90">
-                   <item>
-                    <widget class="QLabel" name="label_38">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="font">
-                      <font>
-                       <pointsize>6</pointsize>
-                      </font>
-                     </property>
-                     <property name="text">
-                      <string>Font name</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QComboBox" name="font_f2_comboBox_3">
-                     <item>
-                      <property name="text">
-                       <string>arial </string>
+                 <layout class="QVBoxLayout" name="verticalLayout_146">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_80">
+                    <item>
+                     <widget class="QLabel" name="label_63">
+                      <property name="font">
+                       <font>
+                        <pointsize>6</pointsize>
+                       </font>
                       </property>
-                     </item>
-                     <item>
                       <property name="text">
-                       <string>times</string>
+                       <string/>
                       </property>
-                     </item>
-                     <item>
+                      <property name="pixmap">
+                       <pixmap resource="f1.qrc">:/newPrefix/ready.jpg</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_48">
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_90">
+                        <item>
+                         <widget class="QLabel" name="label_64">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);</string>
+                          </property>
+                          <property name="text">
+                           <string>Font</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QComboBox" name="font_f2_combo_2">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                          <item>
+                           <property name="text">
+                            <string>arial</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>times</string>
+                           </property>
+                          </item>
+                          <item>
+                           <property name="text">
+                            <string>courier</string>
+                           </property>
+                          </item>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QVBoxLayout" name="verticalLayout_138">
+                        <item>
+                         <widget class="QLabel" name="label_65">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <pointsize>6</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">color: rgb(191, 191, 191);</string>
+                          </property>
+                          <property name="text">
+                           <string>Size</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QSpinBox" name="fontsize_f2_spinBox_3">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">background-color: rgb(255, 255, 255);</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="f1_create_button_7">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
+                      </property>
                       <property name="text">
-                       <string>courier </string>
+                       <string>Create</string>
                       </property>
-                     </item>
-                    </widget>
-                   </item>
-                  </layout>
-                 </widget>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="F8_PREVIOUS_7">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(191, 191 191);</string>
+                      </property>
+                      <property name="text">
+                       <string>PREVIOUS</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
                 </widget>
                </widget>
               </item>
