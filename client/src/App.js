@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react'
+import Header from './header'
+import FormType from './formSelect'
+import './formSelect.css'
+import p1 from './p1.png'
+import p2 from './p2.png'
+import p3 from './p3.png'
+import { Steps, Step } from "react-step-builder";
+class App extends Component{
+  constructor(props) {
+    super(props);
+    this.pics = [p1 , p2 , p3]
+  }
+  render() {
+    return (
+      <div id='wrapper'>
+      <Header />
+      <FormType src={ this.pics }/>
+      </div>
+    )
+  }
 }
+
 
 export default App;

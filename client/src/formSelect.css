@@ -1,4 +1,8 @@
-.App {
+*{
+  box-sizing: border-box;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +39,33 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* input[type=checkbox] {
+display:none;
+} */
+ 
+.selection {
+  display: none;
+}
+
+.pics{
+  /* display: inline-grid; */
+  border-radius: 4px;
+  width: 20%;
+  height: 50%;
+  margin: 15px;
+  padding: 15px;
+  transition: all 0.1s;
+}
+
+.pics:hover{
+  transform: scale(1.1,1.1);
+  border-style: solid;
+  border-width: 3px;
+  border-color: maroon;
+}
+.picWrapper{
+  /* display: grid; */
+  justify-content: center;
+  text-align: center;
 }
